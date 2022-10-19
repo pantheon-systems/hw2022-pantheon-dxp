@@ -1,4 +1,4 @@
-
+build-metadata.json
 
 ###
 ### Pantheon site .gitignore section
@@ -33,6 +33,10 @@ web/wp-content/backups/
 # Avoid accidental modification of pantheon.upstream.yml in sites
 # created from this upstream
 pantheon.upstream.yml
+
+# Ignore Composer-managed dependencies
+node_modules/
+vendor/
 
 # Packages #
 ############

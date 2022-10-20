@@ -87,11 +87,13 @@
     ],
     "post-install-cmd": [
       "@cleanup",
-      "WordPressProject\\composer\\ScriptHandler::createRequiredFiles"
+      "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
+      "@delete-muplugin"
     ],
     "post-update-cmd": [
       "@cleanup",
-      "WordPressProject\\composer\\ScriptHandler::createRequiredFiles"
+      "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
+      "@delete-muplugin"
     ],
     "post-create-project-cmd": [
       "@cleanup",
@@ -102,6 +104,9 @@
     ],
     "unit-test": [
       "./vendor/bin/phpunit tests/unit/*"
+    ],
+    "delete-muplugin": [
+      "./scripts/composer/delete-muplugin"
     ],
     "lint": "find web/wp-content -name '*.php' -exec php -l {} \\;",
     "lint:phpcs": "composer code-sniff"

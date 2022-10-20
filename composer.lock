@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfe024f3dca73f8b4d8aec021d072619",
+    "content-hash": "2cc661a1f2732176ca8545f9720bead0",
     "packages": [
         {
             "name": "composer/installers",
@@ -609,6 +609,24 @@
                 }
             ],
             "time": "2021-12-12T23:02:06+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/altis-accelerate",
+            "version": "0.7.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/altis-accelerate/",
+                "reference": "tags/0.7.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/altis-accelerate.0.7.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/altis-accelerate/"
         },
         {
             "name": "wpackagist-plugin/lh-hsts",

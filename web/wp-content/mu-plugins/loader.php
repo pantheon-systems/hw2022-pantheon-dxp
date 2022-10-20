@@ -11,6 +11,12 @@ if ( defined( 'WP_INSTALLING' ) && WP_INSTALLING ) {
 	return;
 }
 
+// Load autoloader if it exists.
+$autoloader = dirname( __DIR__, 3 ) . '/vendor/autoload.php';
+if ( file_exists( $autoloader ) ) {
+	require_once $autoloader;
+}
+
 // Add mu-plugins here.
 $pantheon_mu_plugins = [
 	'pantheon-mu-plugin/pantheon.php',

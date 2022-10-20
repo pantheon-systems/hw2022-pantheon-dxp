@@ -59,7 +59,10 @@ class ScriptHandler
     // n.b. Ideally, there are none of these, as removing them may
     // impair Composer's ability to update them later. However, leaving
     // them in place prevents us from pushing to Pantheon.
-    $dirsToDelete = [];
+    $dirsToDelete = [
+      'web/wp-content/mu-plugins/pantheon',
+      'web/wp-content/mu-plugins/pantheon.php',
+    ];
     $finder = new Finder();
     foreach (
       $finder

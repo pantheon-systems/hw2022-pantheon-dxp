@@ -5,13 +5,13 @@ namespace AdvancedPantheon\Tests\Unit;
 use PHPUnit\Framework\TestCase;
 use Brain\Monkey;
 
-class Test_Assert extends TestCase {
-	protected function setUp() {
+class TestAssert extends TestCase {
+	protected function setUp() : void {
 		parent::setUp();
 		Monkey\setUp();
 	}
 
-	protected function tearDown() {
+	protected function tearDown() : void {
 		Monkey\tearDown();
 		parent::tearDown();
 	}

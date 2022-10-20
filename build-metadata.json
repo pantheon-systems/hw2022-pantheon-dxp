@@ -1,1 +1,1 @@
-{"url":"git@github.com:pantheon-systems/hw2022-pantheon-dxp.git","ref":"master","sha":"6ff91dc4b0c8b995a533551a743a5b5f1f82877b","comment":"Initialize build-providers.json file.","commit-date":"2022-10-19 15:21:19 -0600","build-date":"2022-10-19 21:21:45 +0000"}
+{"url":"https://github.com/pantheon-systems/hw2022-pantheon-dxp","ref":"master","sha":"24d7f733b8264d71cafb8972c299658720e7370d","comment":"add a mu-plugin loader","commit-date":"2022-10-20 10:58:08 -0600","build-date":"2022-10-20 17:03:28 +0000"}

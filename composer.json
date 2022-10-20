@@ -17,6 +17,7 @@
   ],
   "require": {
     "php": ">=7.4 || >= 8.0",
+    "altis/core": "^12.0",
     "composer/installers": "*",
     "pantheon-systems/pantheon-mu-plugin": "^1.0",
     "pantheon-systems/quicksilver-pushback": "^2",
@@ -50,7 +51,8 @@
     "allow-plugins": {
       "composer/installers": true,
       "dealerdirect/phpcodesniffer-composer-installer": true,
-      "johnpbloch/wordpress-core-installer": true
+      "johnpbloch/wordpress-core-installer": true,
+      "altis/core": true
     }
   },
   "extra": {

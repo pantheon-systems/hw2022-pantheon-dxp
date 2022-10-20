@@ -12,13 +12,13 @@ set -eo pipefail
 composer -n build-assets
 
 echo "Delete old mu-plugin if it exists"
-if [ -d "web/wp-content/mu-plugins/pantheon" ]; then;
+if [ -d "web/wp-content/mu-plugins/pantheon" ]; then
 	echo "Folder found. Deleting..."
 	sudo rm -rf web/wp-content/mu-plugins/pantheon
 elif
 	echo "Folder not found. Skipping..."
 fi
-if [ -f "web/wp-content/mu-plugins/pantheon.php" ]; then;
+if [ -f "web/wp-content/mu-plugins/pantheon.php" ]; then
 	echo "pantheon.php file found. Deleting..."
 	sudo rm web/wp-content/mu-plugins/pantheon.php
 elif

@@ -93,11 +93,12 @@
       "WordPressProject\\composer\\ScriptHandler::createRequiredFiles"
     ],
     "code-sniff": [
-      "./vendor/bin/phpcs --standard=WordPress ./web/wp-content"
+      "./vendor/bin/phpcs -s --extensions=php --standard=phpcs.ruleset.xml --ignore=node_modules,bower_components,vendor ./web/wp-content"
     ],
     "unit-test": [
       "./vendor/bin/phpunit tests/unit/*"
     ],
-    "lint": "find web/wp-content -name '*.php' -exec php -l {} \\;"
+    "lint": "find web/wp-content -name '*.php' -exec php -l {} \\;",
+    "lint:phpcs": "composer code-sniff"
   }
 }

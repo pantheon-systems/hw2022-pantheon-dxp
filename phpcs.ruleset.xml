@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ruleset>
+	<!-- Path to strip from the front of file paths inside reports (displays shorter paths) -->
+	<arg name="basepath" value="." />
+
+	<!-- Exclude core and platform things. -->
+	<exclude-pattern>*/web/wp-content/mu-plugins/pantheon*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/akismet/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/hello-dolly/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/index.php</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/themes/twenty*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/themes/index.php</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/index.php</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/mu-plugins/pantheon/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/pantheon-advanced-page-cache/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/lh-hsts/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/wp-native-php-sessions/*</exclude-pattern>
+
+	<!-- Use HM Coding Standards -->
+	<rule ref="HM-Minimum" />
+	<rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
+		<!-- Exclude this sniff on the theme functions.php file, which needs to be able to both declare symbols and execute code. -->
+		<exclude-pattern>*/web/wp-content/mu-plugins/pantheon.php</exclude-pattern>
+	</rule>
+
+
+	<!-- Other standards can be used instead or in addition... -->
+	<!-- <rule ref="HM-Minimum" -->
+	<!-- <rule ref="WordPress" /> -->
+	<!-- <rule ref="WordPress-Core" /> -->
+	<!-- <rule ref="WordPress-Docs" /> -->
+	<!-- <rule ref="WordPress-Extra" /> -->
+</ruleset>

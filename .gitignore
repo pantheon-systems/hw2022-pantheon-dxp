@@ -36,6 +36,9 @@ pantheon.upstream.yml
 
 # Ignore Composer-managed dependencies
 web/wp-content/mu-plugins/pantheon-mu-plugin/
+web/wp-content/plugins/pantheon-advanced-page-cache/
+web/wp-content/plugins/wp-native-php-sessions/
+web/wp-content/plugins/lh-hsts/
 node_modules/
 vendor/
 

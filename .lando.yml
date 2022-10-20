@@ -1,0 +1,6 @@
+name: hw2022-pantheon-dxp
+recipe: pantheon
+config:
+  framework: wordpress
+  site: hw2022-pantheon-dxp
+  id: 5a0227f9-d1b1-4580-9471-cad2272ec955

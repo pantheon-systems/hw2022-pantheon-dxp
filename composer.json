@@ -18,6 +18,7 @@
   "require": {
     "php": ">=7.4 || >= 8.0",
     "composer/installers": "*",
+    "pantheon-systems/pantheon-mu-plugin": "^1.0",
     "pantheon-systems/quicksilver-pushback": "^2",
     "pantheon-systems/wordpress-composer": "*",
     "roots/wp-password-bcrypt": "^1.0.0",

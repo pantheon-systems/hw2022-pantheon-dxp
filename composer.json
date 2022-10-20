@@ -102,8 +102,8 @@
       "./vendor/bin/phpunit tests/unit/*"
     ],
     "delete-mu-plugin":[
-      "sudo rm -rf web/wp-content/mu-plugins/pantheon",
-      "sudo rm web/wp-content/mu-plugins/pantheon.php"
+      "if [ -d \"web/wp-content/mu-plugins/pantheon\" ]; then; sudo rm -rf web/wp-content/mu-plugins/pantheon; fi",
+      "if [ -f \"web/wp-content/mu-plugins/pantheon.php\" ]; then; sudo rm web/wp-content/mu-plugins/pantheon.php; fi"
     ],
     "lint": "find web/wp-content -name '*.php' -exec php -l {} \\;",
     "lint:phpcs": "composer code-sniff"

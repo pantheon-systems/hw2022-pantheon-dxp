@@ -25,6 +25,7 @@
 	<exclude-pattern>*/web/wp-content/plugins/debug-bar-elasticpress/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/elasticpress/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/gaussholder/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/amf-wordpress/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/asset-manager-framework/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/smart-media/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/safe-svg/*</exclude-pattern>

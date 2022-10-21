@@ -91,12 +91,14 @@
     "post-install-cmd": [
       "@cleanup",
       "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
-      "@delete-muplugin"
+      "@delete-muplugin",
+      "composer install --working-dir=web/wp-content/mu-plugins/altis-cms"
     ],
     "post-update-cmd": [
       "@cleanup",
       "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
-      "@delete-muplugin"
+      "@delete-muplugin",
+      "composer install --working-dir=web/wp-content/mu-plugins/altis-cms"
     ],
     "post-create-project-cmd": [
       "@cleanup",

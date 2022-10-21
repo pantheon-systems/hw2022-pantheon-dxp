@@ -4,13 +4,21 @@ set -ex
 echo "Delete old mu-plugin if it exists"
 if [ -d "web/wp-content/mu-plugins/pantheon" ]; then
 	echo "Folder found. Deleting..."
-	sudo rm -rf web/wp-content/mu-plugins/pantheon
+	if [ -f ".lando.yml" ]; then
+		rm-rf web/wp-content/mu-plugins/pantheon
+	else
+		sudo rm -rf web/wp-content/mu-plugins/pantheon
+	fi
 else
 	echo "Folder not found. Skipping..."
 fi
 if [ -f "web/wp-content/mu-plugins/pantheon.php" ]; then
 	echo "pantheon.php file found. Deleting..."
-	sudo rm web/wp-content/mu-plugins/pantheon.php
+	if [ -f ".lando.yml" ]; then
+		rm web/wp-content/mu-plugins/pantheon.php
+	else
+		sudo rm web/wp-content/mu-plugins/pantheon.php
+	fi
 else
 	echo "pantheon.php file not found. Skipping..."
 fi

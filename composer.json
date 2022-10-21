@@ -13,11 +13,16 @@
     {
       "type": "vcs",
       "url": "https://github.com/pantheon-systems/wordpress-composer"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:jazzsequence/altis-cms.git"
     }
   ],
   "require": {
     "php": ">=7.4 || >= 8.0",
     "composer/installers": "*",
+    "jazzsequence/altis-cms": "v12-beta1",
     "pantheon-systems/pantheon-mu-plugin": "^1.0",
     "pantheon-systems/quicksilver-pushback": "^2",
     "pantheon-systems/wordpress-composer": "*",

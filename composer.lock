@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d81bfcb030b095e0176eebded3b3b140",
+    "content-hash": "03a674820f56be656999f2c2b9b3da98",
     "packages": [
         {
             "name": "10up/elasticpress",
@@ -321,6 +321,96 @@
             "time": "2021-09-13T08:19:44+00:00"
         },
         {
+            "name": "darylldoyle/safe-svg",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/10up/safe-svg.git",
+                "reference": "d82abb46925ce2656d93ba595c58705183af3cbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/10up/safe-svg/zipball/d82abb46925ce2656d93ba595c58705183af3cbe",
+                "reference": "d82abb46925ce2656d93ba595c58705183af3cbe",
+                "shasum": ""
+            },
+            "require": {
+                "enshrined/svg-sanitize": "^0.15.2",
+                "php": ">=7.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "10up",
+                    "email": "opensource@10up.com",
+                    "homepage": "https://10up.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Daryll Doyle",
+                    "email": "daryll@enshrined.co.uk",
+                    "homepage": "http://enshrined.co.uk/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Enable SVG uploads and sanitize them to stop XML/SVG vulnerabilities in your WordPress website",
+            "homepage": "https://github.com/10up/safe-svg",
+            "support": {
+                "issues": "https://github.com/10up/safe-svg/issues",
+                "source": "https://github.com/10up/safe-svg/tree/2.0.1"
+            },
+            "time": "2022-04-19T17:28:07+00:00"
+        },
+        {
+            "name": "enshrined/svg-sanitize",
+            "version": "0.15.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darylldoyle/svg-sanitizer.git",
+                "reference": "e50b83a2f1f296ca61394fe88fbfe3e896a84cf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/e50b83a2f1f296ca61394fe88fbfe3e896a84cf4",
+                "reference": "e50b83a2f1f296ca61394fe88fbfe3e896a84cf4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php": "^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5 || ^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "enshrined\\svgSanitize\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daryll Doyle",
+                    "email": "daryll@enshrined.co.uk"
+                }
+            ],
+            "description": "An SVG sanitizer for PHP",
+            "support": {
+                "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.15.4"
+            },
+            "time": "2022-02-21T09:13:59+00:00"
+        },
+        {
             "name": "humanmade/altis-reusable-blocks",
             "version": "v0.2.3",
             "source": {
@@ -573,6 +663,120 @@
                 "source": "https://github.com/humanmade/debug-bar-elasticpress/tree/1.6.3"
             },
             "time": "2021-01-14T11:27:18+00:00"
+        },
+        {
+            "name": "humanmade/gaussholder",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/Gaussholder.git",
+                "reference": "8571d08ad5018384702ec297bb2e578d74ae3eb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/Gaussholder/zipball/8571d08ad5018384702ec297bb2e578d74ae3eb9",
+                "reference": "8571d08ad5018384702ec297bb2e578d74ae3eb9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/humanmade/Gaussholder/graphs/contributors"
+                }
+            ],
+            "description": "Fast and lightweight image previews for WordPress",
+            "keywords": [
+                "images",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/humanmade/Gaussholder/issues",
+                "source": "https://github.com/humanmade/Gaussholder/releases",
+                "wiki": "https://github.com/humanmade/Gaussholder/wiki"
+            },
+            "time": "2019-05-13T10:17:03+00:00"
+        },
+        {
+            "name": "humanmade/rename-images-command",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/rename-images-command.git",
+                "reference": "e1397ebe96e929dd7cde127819d70d6fd4cd5ab2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/rename-images-command/zipball/e1397ebe96e929dd7cde127819d70d6fd4cd5ab2",
+                "reference": "e1397ebe96e929dd7cde127819d70d6fd4cd5ab2",
+                "shasum": ""
+            },
+            "type": "wp-cli-package",
+            "autoload": {
+                "files": [
+                    "plugin.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Image renaming command for WordPress",
+            "support": {
+                "issues": "https://github.com/humanmade/rename-images-command/issues",
+                "source": "https://github.com/humanmade/rename-images-command/tree/0.1.0"
+            },
+            "time": "2020-11-26T13:26:55+00:00"
+        },
+        {
+            "name": "humanmade/tachyon-plugin",
+            "version": "0.11.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/tachyon-plugin.git",
+                "reference": "0511626cc9065e300a531bff4a8ef03c88deac67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/tachyon-plugin/zipball/0511626cc9065e300a531bff4a8ef03c88deac67",
+                "reference": "0511626cc9065e300a531bff4a8ef03c88deac67",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Hoyle",
+                    "email": "joe@humanmade.com"
+                }
+            ],
+            "description": "Rewrites WordPress image URLs to use Tachyon",
+            "support": {
+                "issues": "https://github.com/humanmade/tachyon-plugin/issues",
+                "source": "https://github.com/humanmade/tachyon-plugin/tree/0.11.5"
+            },
+            "time": "2021-10-22T11:37:46+00:00"
         },
         {
             "name": "jazzsequence/altis-cms",

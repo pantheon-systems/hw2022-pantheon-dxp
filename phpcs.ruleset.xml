@@ -24,6 +24,10 @@
 	<exclude-pattern>*/web/wp-content/plugins/altis-accelerate/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/debug-bar-elasticpress/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/elasticpress/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/gaussholder/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/asset-manager-framework/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/smart-media/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/safe-svg/*</exclude-pattern>
 
 	<!-- Use HM Coding Standards -->
 	<rule ref="HM-Minimum" />

@@ -4,8 +4,74 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "017ca05178c078eca4cdfe46299b8885",
+    "content-hash": "d81bfcb030b095e0176eebded3b3b140",
     "packages": [
+        {
+            "name": "10up/elasticpress",
+            "version": "4.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/10up/ElasticPress.git",
+                "reference": "da280d3256bb6627958e08671adfd9d986138cb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/10up/ElasticPress/zipball/da280d3256bb6627958e08671adfd9d986138cb6",
+                "reference": "da280d3256bb6627958e08671adfd9d986138cb6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "10up/phpcs-composer": "dev-master",
+                "phpcompatibility/phpcompatibility-wp": "*",
+                "phpunit/phpunit": "^7",
+                "wpackagist-plugin/woocommerce": "*",
+                "yoast/phpunit-polyfills": "1.x-dev"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-paths": {
+                    "vendor/{$name}/": [
+                        "type:wordpress-plugin",
+                        "type:wordpress-theme"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Lovett",
+                    "email": "taylorl@get10up.com"
+                },
+                {
+                    "name": "10up",
+                    "homepage": "http://10up.com"
+                },
+                {
+                    "name": "Aaron Holbrook",
+                    "email": "aaron@10up.com",
+                    "homepage": "http://aaronjholbrook.com"
+                }
+            ],
+            "description": "Supercharge WordPress with Elasticsearch.",
+            "keywords": [
+                "elasticpress",
+                "elasticsearch",
+                "plugin",
+                "search",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/10up/ElasticPress/issues",
+                "source": "https://github.com/10up/ElasticPress/tree/4.2.2"
+            },
+            "time": "2022-07-14T17:12:38+00:00"
+        },
         {
             "name": "10up/simple-local-avatars",
             "version": "2.2.0",
@@ -50,6 +116,58 @@
                 "source": "https://github.com/10up/simple-local-avatars"
             },
             "time": "2020-10-26T19:07:29+00:00"
+        },
+        {
+            "name": "altis/enhanced-search",
+            "version": "13.0.0-beta.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-enhanced-search.git",
+                "reference": "72c40384d552bd63b08e353e4f3ae4dc4bf6bb2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-enhanced-search/zipball/72c40384d552bd63b08e353e4f3ae4dc4bf6bb2c",
+                "reference": "72c40384d552bd63b08e353e4f3ae4dc4bf6bb2c",
+                "shasum": ""
+            },
+            "require": {
+                "10up/elasticpress": "~4.2.2",
+                "humanmade/debug-bar-elasticpress": "~1.6.3",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "altis": {
+                    "install-overrides": [
+                        "10up/elasticpress",
+                        "humanmade/debug-bar-elasticpress"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "inc/namespace.php",
+                    "inc/analysis/namespace.php",
+                    "inc/packages/namespace.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Enhanced Search module for Altis",
+            "support": {
+                "issues": "https://github.com/humanmade/altis-enhanced-search/issues",
+                "source": "https://github.com/humanmade/altis-enhanced-search/tree/13.0.0-beta.1"
+            },
+            "time": "2022-08-02T10:24:02+00:00"
         },
         {
             "name": "composer/installers",
@@ -407,6 +525,54 @@
                 "source": "https://github.com/humanmade/clean-html/tree/master"
             },
             "time": "2020-06-09T13:13:07+00:00"
+        },
+        {
+            "name": "humanmade/debug-bar-elasticpress",
+            "version": "1.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/debug-bar-elasticpress.git",
+                "reference": "5e691066df3016624a3cce5ecb0524b8840d0dd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/debug-bar-elasticpress/zipball/5e691066df3016624a3cce5ecb0524b8840d0dd7",
+                "reference": "5e691066df3016624a3cce5ecb0524b8840d0dd7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Lovett",
+                    "email": "taylorl@get10up.com"
+                },
+                {
+                    "name": "10up",
+                    "homepage": "http://10up.com"
+                }
+            ],
+            "description": "Extends the Debug Bar plugin for usage with ElasticPress",
+            "keywords": [
+                "debug",
+                "debug bar",
+                "elasticpress",
+                "elasticsearch",
+                "plugin",
+                "search",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/humanmade/debug-bar-elasticpress/issues",
+                "source": "https://github.com/humanmade/debug-bar-elasticpress/tree/1.6.3"
+            },
+            "time": "2021-01-14T11:27:18+00:00"
         },
         {
             "name": "jazzsequence/altis-cms",

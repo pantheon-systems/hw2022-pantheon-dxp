@@ -22,6 +22,8 @@
 	<exclude-pattern>*/web/wp-content/plugins/authorship/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/asset-loader/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/altis-accelerate/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/debug-bar-elasticpress/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/elasticpress/*</exclude-pattern>
 
 	<!-- Use HM Coding Standards -->
 	<rule ref="HM-Minimum" />

@@ -5,7 +5,7 @@ echo "Delete old mu-plugin if it exists"
 if [ -d "web/wp-content/mu-plugins/pantheon" ]; then
 	echo "Folder found. Deleting..."
 	if [ -f ".lando.yml" ]; then
-		rm-rf web/wp-content/mu-plugins/pantheon
+		rm -rf web/wp-content/mu-plugins/pantheon
 	else
 		sudo rm -rf web/wp-content/mu-plugins/pantheon
 	fi

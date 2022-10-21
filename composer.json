@@ -74,6 +74,9 @@
     }
   },
   "autoload": {
+    "files": [
+      "vendor/jazzsequence/altis-cms/plugin.php"
+    ],
     "classmap": [
       "scripts/composer/ScriptHandler.php"
     ],

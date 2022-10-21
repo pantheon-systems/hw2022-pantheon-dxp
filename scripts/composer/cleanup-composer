@@ -14,3 +14,7 @@ fi
 if [ -d "content" ]; then
   rm -rf content
 fi
+
+if [ -d "web/wp-content/mu-plugins/altis-cms/wp-content" ]; then
+  rm -rf web/wp-content/mu-plugins/altis-cms/wp-content
+fi

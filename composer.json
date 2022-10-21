@@ -22,6 +22,7 @@
   "require": {
     "php": ">=7.4 || >= 8.0",
     "composer/installers": "*",
+    "humanmade/cavalcade": "^2.0",
     "jazzsequence/altis-cms": "^12.0-beta4",
     "pantheon-systems/pantheon-mu-plugin": "^1.0",
     "pantheon-systems/quicksilver-pushback": "^2",

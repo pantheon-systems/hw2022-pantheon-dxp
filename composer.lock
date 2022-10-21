@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca2ae30b7bdebd1b41fce871bfab1e78",
+    "content-hash": "03a674820f56be656999f2c2b9b3da98",
     "packages": [
         {
             "name": "10up/elasticpress",
@@ -451,58 +451,6 @@
             "time": "2022-07-13T19:12:25+00:00"
         },
         {
-            "name": "humanmade/amf-wordpress",
-            "version": "0.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/humanmade/amf-wordpress.git",
-                "reference": "dc2ca53a6637d251c5d54081ef4ba90effc5970e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/amf-wordpress/zipball/dc2ca53a6637d251c5d54081ef4ba90effc5970e",
-                "reference": "dc2ca53a6637d251c5d54081ef4ba90effc5970e",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0",
-                "ext-json": "*",
-                "humanmade/asset-manager-framework": "^0.13.0",
-                "php": ">=7.2"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
-                "humanmade/coding-standards": "^1.1",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "type": "wordpress-plugin",
-            "autoload": {
-                "files": [
-                    "inc/namespace.php"
-                ],
-                "classmap": [
-                    "inc"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Human Made",
-                    "homepage": "https://humanmade.com"
-                }
-            ],
-            "description": "Use another WordPress site as source for your media library.",
-            "homepage": "https://github.com/humanmade/amf-wordpress",
-            "support": {
-                "issues": "https://github.com/humanmade/orphan-command/issues",
-                "source": "https://github.com/humanmade/amf-wordpress/tree/0.3.0"
-            },
-            "time": "2021-09-27T14:26:00+00:00"
-        },
-        {
             "name": "humanmade/asset-loader",
             "version": "v0.6.2",
             "source": {
@@ -535,54 +483,6 @@
                 "source": "https://github.com/humanmade/asset-loader/tree/v0.6.2"
             },
             "time": "2022-07-26T16:43:22+00:00"
-        },
-        {
-            "name": "humanmade/asset-manager-framework",
-            "version": "0.13.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/humanmade/asset-manager-framework.git",
-                "reference": "1b02e24321c22a32cb45dbeffb5560626e5e09ee"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/asset-manager-framework/zipball/1b02e24321c22a32cb45dbeffb5560626e5e09ee",
-                "reference": "1b02e24321c22a32cb45dbeffb5560626e5e09ee",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0 || ~2.0",
-                "php": ">=7.2"
-            },
-            "require-dev": {
-                "automattic/phpcs-neutron-ruleset": "^3.2",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
-                "phpcompatibility/phpcompatibility-wp": "~2.1.0",
-                "wp-coding-standards/wpcs": "~2.2.0"
-            },
-            "type": "wordpress-plugin",
-            "autoload": {
-                "psr-4": {
-                    "AssetManagerFramework\\": "inc/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Human Made",
-                    "homepage": "https://humanmade.com/"
-                }
-            ],
-            "description": "A framework for overriding the WordPress media library with an external asset provider.",
-            "homepage": "https://github.com/humanmade/asset-manager-framework/",
-            "support": {
-                "issues": "https://github.com/humanmade/asset-manager-framework/issues",
-                "source": "https://github.com/humanmade/asset-manager-framework/tree/0.13.4"
-            },
-            "time": "2022-09-26T13:04:06+00:00"
         },
         {
             "name": "humanmade/authorship",

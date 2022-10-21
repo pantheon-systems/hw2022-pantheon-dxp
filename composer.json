@@ -28,7 +28,6 @@
     "humanmade/tachyon-plugin": "~0.11.5",
     "humanmade/gaussholder": "^1.1.3",
     "humanmade/rename-images-command": "^0.1.0",
-    "humanmade/amf-wordpress": "^0.3.0",
     "jazzsequence/altis-cms": "^12.0-beta4",
     "pantheon-systems/pantheon-mu-plugin": "^1.0",
     "pantheon-systems/quicksilver-pushback": "^2",
@@ -40,6 +39,9 @@
     "wpackagist-plugin/pantheon-advanced-page-cache": ">=0.3.0",
     "wpackagist-plugin/wp-native-php-sessions": ">=0.6.9",
     "wpackagist-theme/twentynineteen": "^1.2"
+  },
+  "suggest": {
+    "humanmade/amf-wordpress": "Asset Manager Framework for WordPress. Turn your multisite into a digital asset manager."
   },
   "require-dev": {
     "behat/mink-goutte-driver": "^1.2.1",

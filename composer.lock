@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f42b7c6e1a719ec88d63f1ffd8e410a6",
+    "content-hash": "809b5497f687d7ca344fe3de60384bc1",
     "packages": [
         {
             "name": "10up/simple-local-avatars",
@@ -370,16 +370,16 @@
         },
         {
             "name": "jazzsequence/altis-cms",
-            "version": "v12-beta1",
+            "version": "12.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jazzsequence/altis-cms.git",
-                "reference": "8f9c83131266118c12d348db09c6bd77f1f102ff"
+                "reference": "01b305de543389711ef8b5db16f82f05baa161fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jazzsequence/altis-cms/zipball/8f9c83131266118c12d348db09c6bd77f1f102ff",
-                "reference": "8f9c83131266118c12d348db09c6bd77f1f102ff",
+                "url": "https://api.github.com/repos/jazzsequence/altis-cms/zipball/01b305de543389711ef8b5db16f82f05baa161fc",
+                "reference": "01b305de543389711ef8b5db16f82f05baa161fc",
                 "shasum": ""
             },
             "require": {
@@ -404,7 +404,7 @@
                     "inc/cli/namespace.php",
                     "inc/network_ui/namespace.php",
                     "inc/real_guids/namespace.php",
-                    "inc/signup_notifications/namespace.php"
+                    "inc/signup_notification/namespace.php"
                 ],
                 "classmap": [
                     "inc/"
@@ -425,10 +425,10 @@
             ],
             "description": "Altis CMS Module for jazzsequence.com",
             "support": {
-                "source": "https://github.com/jazzsequence/altis-cms/tree/v12-beta1",
+                "source": "https://github.com/jazzsequence/altis-cms/tree/12.0-beta2",
                 "issues": "https://github.com/jazzsequence/altis-cms/issues"
             },
-            "time": "2022-10-21T15:55:42+00:00"
+            "time": "2022-10-21T16:12:27+00:00"
         },
         {
             "name": "johnbillion/args",

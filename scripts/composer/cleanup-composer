@@ -14,3 +14,7 @@ fi
 if [ -d "web/wp/wp-content" ]; then
   rm -rf web/wp/wp-content
 fi
+
+if [ -d "content" ]; then
+  rm -rf content
+fi

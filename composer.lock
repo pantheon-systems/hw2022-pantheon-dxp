@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "809b5497f687d7ca344fe3de60384bc1",
+    "content-hash": "5b229d924de4628cc15e7d74b655bf98",
     "packages": [
         {
             "name": "10up/simple-local-avatars",
@@ -370,16 +370,16 @@
         },
         {
             "name": "jazzsequence/altis-cms",
-            "version": "12.0-beta2",
+            "version": "12.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jazzsequence/altis-cms.git",
-                "reference": "01b305de543389711ef8b5db16f82f05baa161fc"
+                "reference": "a844f1a6e327f0cd092a83042fdca3e717e35fb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jazzsequence/altis-cms/zipball/01b305de543389711ef8b5db16f82f05baa161fc",
-                "reference": "01b305de543389711ef8b5db16f82f05baa161fc",
+                "url": "https://api.github.com/repos/jazzsequence/altis-cms/zipball/a844f1a6e327f0cd092a83042fdca3e717e35fb0",
+                "reference": "a844f1a6e327f0cd092a83042fdca3e717e35fb0",
                 "shasum": ""
             },
             "require": {
@@ -392,7 +392,7 @@
                 "roots/wp-password-bcrypt": "1.1.0",
                 "stuttter/wp-user-signups": "^5.0.2"
             },
-            "type": "library",
+            "type": "wordpress-muplugin",
             "autoload": {
                 "files": [
                     "inc/namespace.php",
@@ -425,10 +425,10 @@
             ],
             "description": "Altis CMS Module for jazzsequence.com",
             "support": {
-                "source": "https://github.com/jazzsequence/altis-cms/tree/12.0-beta2",
+                "source": "https://github.com/jazzsequence/altis-cms/tree/12.0-beta3",
                 "issues": "https://github.com/jazzsequence/altis-cms/issues"
             },
-            "time": "2022-10-21T16:12:27+00:00"
+            "time": "2022-10-21T19:45:36+00:00"
         },
         {
             "name": "johnbillion/args",

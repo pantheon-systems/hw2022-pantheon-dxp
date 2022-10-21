@@ -34,14 +34,21 @@ web/wp-content/backups/
 # created from this upstream
 pantheon.upstream.yml
 
-# Ignore Composer-managed dependencies
+# Ignore Composer- and NPM-managed dependencies
+node_modules/
+vendor/
+# Ignore Pantheon dependencies
 web/wp-content/mu-plugins/pantheon-mu-plugin/
-web/wp-content/plugins/altis-accelerate/
 web/wp-content/plugins/lh-hsts/
 web/wp-content/plugins/pantheon-advanced-page-cache/
 web/wp-content/plugins/wp-native-php-sessions/
-node_modules/
-vendor/
+# Ignore Altis things
+web/wp-content/plugins/altis-accelerate/
+web/wp-content/plugins/altis-reusable-blocks/
+web/wp-content/plugins/asset-loader/
+web/wp-content/plugins/authorship/
+web/wp-content/plugins/simple-local-avatars/
+web/wp-content/plugins/wp-user-signups/
 
 # Packages #
 ############

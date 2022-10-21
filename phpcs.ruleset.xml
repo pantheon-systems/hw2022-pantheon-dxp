@@ -12,9 +12,16 @@
 	<exclude-pattern>*/web/wp-content/themes/index.php</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/index.php</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/mu-plugins/pantheon/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/mu-plugins/altis-cms/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/pantheon-advanced-page-cache/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/lh-hsts/*</exclude-pattern>
 	<exclude-pattern>*/web/wp-content/plugins/wp-native-php-sessions/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/wp-user-signups/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/simple-local-avatars/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/altis-reusable-blocks/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/authorship/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/asset-loader/*</exclude-pattern>
+	<exclude-pattern>*/web/wp-content/plugins/altis-accelerate/*</exclude-pattern>
 
 	<!-- Use HM Coding Standards -->
 	<rule ref="HM-Minimum" />

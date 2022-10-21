@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d81bfcb030b095e0176eebded3b3b140",
+    "content-hash": "eb8b45ec49647c0d2828a1da8c6d70c5",
     "packages": [
         {
             "name": "10up/elasticpress",
@@ -170,6 +170,71 @@
             "time": "2022-08-02T10:24:02+00:00"
         },
         {
+            "name": "altis/media",
+            "version": "13.0.0-beta.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-media.git",
+                "reference": "8bdc7d6f6aa8ad3828640b89c834c7939e534dd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-media/zipball/8bdc7d6f6aa8ad3828640b89c834c7939e534dd1",
+                "reference": "8bdc7d6f6aa8ad3828640b89c834c7939e534dd1",
+                "shasum": ""
+            },
+            "require": {
+                "darylldoyle/safe-svg": "2.0.1",
+                "humanmade/amf-wordpress": "^0.3.0",
+                "humanmade/asset-manager-framework": "^0.13.1",
+                "humanmade/aws-rekognition": "~0.1.8",
+                "humanmade/gaussholder": "1.1.3",
+                "humanmade/rename-images-command": "^0.1.0",
+                "humanmade/smart-media": "~0.4.3",
+                "humanmade/tachyon-plugin": "~0.11.5",
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "altis": {
+                    "install-overrides": [
+                        "darylldoyle/safe-svg",
+                        "humanmade/tachyon-plugin",
+                        "humanmade/smart-media",
+                        "humanmade/gaussholder",
+                        "humanmade/aws-rekognition",
+                        "humanmade/asset-manager-framework",
+                        "humanmade/amf-wordpress"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "inc/namespace.php",
+                    "inc/global_assets/namespace.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Media module for Altis",
+            "support": {
+                "issues": "https://github.com/humanmade/altis-media/issues",
+                "source": "https://github.com/humanmade/altis-media/tree/13.0.0-beta.1"
+            },
+            "time": "2022-07-20T10:56:27+00:00"
+        },
+        {
             "name": "composer/installers",
             "version": "v1.12.0",
             "source": {
@@ -321,6 +386,96 @@
             "time": "2021-09-13T08:19:44+00:00"
         },
         {
+            "name": "darylldoyle/safe-svg",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/10up/safe-svg.git",
+                "reference": "d82abb46925ce2656d93ba595c58705183af3cbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/10up/safe-svg/zipball/d82abb46925ce2656d93ba595c58705183af3cbe",
+                "reference": "d82abb46925ce2656d93ba595c58705183af3cbe",
+                "shasum": ""
+            },
+            "require": {
+                "enshrined/svg-sanitize": "^0.15.2",
+                "php": ">=7.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "10up",
+                    "email": "opensource@10up.com",
+                    "homepage": "https://10up.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Daryll Doyle",
+                    "email": "daryll@enshrined.co.uk",
+                    "homepage": "http://enshrined.co.uk/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Enable SVG uploads and sanitize them to stop XML/SVG vulnerabilities in your WordPress website",
+            "homepage": "https://github.com/10up/safe-svg",
+            "support": {
+                "issues": "https://github.com/10up/safe-svg/issues",
+                "source": "https://github.com/10up/safe-svg/tree/2.0.1"
+            },
+            "time": "2022-04-19T17:28:07+00:00"
+        },
+        {
+            "name": "enshrined/svg-sanitize",
+            "version": "0.15.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darylldoyle/svg-sanitizer.git",
+                "reference": "e50b83a2f1f296ca61394fe88fbfe3e896a84cf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/e50b83a2f1f296ca61394fe88fbfe3e896a84cf4",
+                "reference": "e50b83a2f1f296ca61394fe88fbfe3e896a84cf4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php": "^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5 || ^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "enshrined\\svgSanitize\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daryll Doyle",
+                    "email": "daryll@enshrined.co.uk"
+                }
+            ],
+            "description": "An SVG sanitizer for PHP",
+            "support": {
+                "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.15.4"
+            },
+            "time": "2022-02-21T09:13:59+00:00"
+        },
+        {
             "name": "humanmade/altis-reusable-blocks",
             "version": "v0.2.3",
             "source": {
@@ -361,6 +516,58 @@
             "time": "2022-07-13T19:12:25+00:00"
         },
         {
+            "name": "humanmade/amf-wordpress",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/amf-wordpress.git",
+                "reference": "dc2ca53a6637d251c5d54081ef4ba90effc5970e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/amf-wordpress/zipball/dc2ca53a6637d251c5d54081ef4ba90effc5970e",
+                "reference": "dc2ca53a6637d251c5d54081ef4ba90effc5970e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "ext-json": "*",
+                "humanmade/asset-manager-framework": "^0.13.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "humanmade/coding-standards": "^1.1",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "files": [
+                    "inc/namespace.php"
+                ],
+                "classmap": [
+                    "inc"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "homepage": "https://humanmade.com"
+                }
+            ],
+            "description": "Use another WordPress site as source for your media library.",
+            "homepage": "https://github.com/humanmade/amf-wordpress",
+            "support": {
+                "issues": "https://github.com/humanmade/orphan-command/issues",
+                "source": "https://github.com/humanmade/amf-wordpress/tree/0.3.0"
+            },
+            "time": "2021-09-27T14:26:00+00:00"
+        },
+        {
             "name": "humanmade/asset-loader",
             "version": "v0.6.2",
             "source": {
@@ -393,6 +600,54 @@
                 "source": "https://github.com/humanmade/asset-loader/tree/v0.6.2"
             },
             "time": "2022-07-26T16:43:22+00:00"
+        },
+        {
+            "name": "humanmade/asset-manager-framework",
+            "version": "0.13.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/asset-manager-framework.git",
+                "reference": "1b02e24321c22a32cb45dbeffb5560626e5e09ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/asset-manager-framework/zipball/1b02e24321c22a32cb45dbeffb5560626e5e09ee",
+                "reference": "1b02e24321c22a32cb45dbeffb5560626e5e09ee",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/phpcs-neutron-ruleset": "^3.2",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+                "phpcompatibility/phpcompatibility-wp": "~2.1.0",
+                "wp-coding-standards/wpcs": "~2.2.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "AssetManagerFramework\\": "inc/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "homepage": "https://humanmade.com/"
+                }
+            ],
+            "description": "A framework for overriding the WordPress media library with an external asset provider.",
+            "homepage": "https://github.com/humanmade/asset-manager-framework/",
+            "support": {
+                "issues": "https://github.com/humanmade/asset-manager-framework/issues",
+                "source": "https://github.com/humanmade/asset-manager-framework/tree/0.13.4"
+            },
+            "time": "2022-09-26T13:04:06+00:00"
         },
         {
             "name": "humanmade/authorship",
@@ -448,6 +703,38 @@
                 "source": "https://github.com/humanmade/authorship/tree/0.2.13"
             },
             "time": "2022-08-19T10:02:44+00:00"
+        },
+        {
+            "name": "humanmade/aws-rekognition",
+            "version": "0.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/aws-rekognition.git",
+                "reference": "7d54241c83044b1ffbf04ff10a101600176e7a40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/aws-rekognition/zipball/7d54241c83044b1ffbf04ff10a101600176e7a40",
+                "reference": "7d54241c83044b1ffbf04ff10a101600176e7a40",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Hoyle",
+                    "email": "joe@humanmade.com"
+                }
+            ],
+            "description": "Detect labels, faces, celebrities, and text in images automatically for easy searching and alt text generation.",
+            "support": {
+                "issues": "https://github.com/humanmade/aws-rekognition/issues",
+                "source": "https://github.com/humanmade/aws-rekognition/tree/0.1.8"
+            },
+            "time": "2021-06-21T20:21:01+00:00"
         },
         {
             "name": "humanmade/cavalcade",
@@ -573,6 +860,152 @@
                 "source": "https://github.com/humanmade/debug-bar-elasticpress/tree/1.6.3"
             },
             "time": "2021-01-14T11:27:18+00:00"
+        },
+        {
+            "name": "humanmade/gaussholder",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/Gaussholder.git",
+                "reference": "8571d08ad5018384702ec297bb2e578d74ae3eb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/Gaussholder/zipball/8571d08ad5018384702ec297bb2e578d74ae3eb9",
+                "reference": "8571d08ad5018384702ec297bb2e578d74ae3eb9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/humanmade/Gaussholder/graphs/contributors"
+                }
+            ],
+            "description": "Fast and lightweight image previews for WordPress",
+            "keywords": [
+                "images",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/humanmade/Gaussholder/issues",
+                "source": "https://github.com/humanmade/Gaussholder/releases",
+                "wiki": "https://github.com/humanmade/Gaussholder/wiki"
+            },
+            "time": "2019-05-13T10:17:03+00:00"
+        },
+        {
+            "name": "humanmade/rename-images-command",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/rename-images-command.git",
+                "reference": "e1397ebe96e929dd7cde127819d70d6fd4cd5ab2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/rename-images-command/zipball/e1397ebe96e929dd7cde127819d70d6fd4cd5ab2",
+                "reference": "e1397ebe96e929dd7cde127819d70d6fd4cd5ab2",
+                "shasum": ""
+            },
+            "type": "wp-cli-package",
+            "autoload": {
+                "files": [
+                    "plugin.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Image renaming command for WordPress",
+            "support": {
+                "issues": "https://github.com/humanmade/rename-images-command/issues",
+                "source": "https://github.com/humanmade/rename-images-command/tree/0.1.0"
+            },
+            "time": "2020-11-26T13:26:55+00:00"
+        },
+        {
+            "name": "humanmade/smart-media",
+            "version": "0.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/smart-media.git",
+                "reference": "aff77d25af75a9a48c953ad367fba7e8e89c185b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/smart-media/zipball/aff77d25af75a9a48c953ad367fba7e8e89c185b",
+                "reference": "aff77d25af75a9a48c953ad367fba7e8e89c185b",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Robert O'Rourke",
+                    "email": "rob@humanmade.com"
+                }
+            ],
+            "description": "Smart Media features for HM Cloud",
+            "support": {
+                "issues": "https://github.com/humanmade/smart-media/issues",
+                "source": "https://github.com/humanmade/smart-media/tree/0.4.3"
+            },
+            "time": "2021-12-14T22:24:07+00:00"
+        },
+        {
+            "name": "humanmade/tachyon-plugin",
+            "version": "0.11.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/tachyon-plugin.git",
+                "reference": "0511626cc9065e300a531bff4a8ef03c88deac67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/tachyon-plugin/zipball/0511626cc9065e300a531bff4a8ef03c88deac67",
+                "reference": "0511626cc9065e300a531bff4a8ef03c88deac67",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Hoyle",
+                    "email": "joe@humanmade.com"
+                }
+            ],
+            "description": "Rewrites WordPress image URLs to use Tachyon",
+            "support": {
+                "issues": "https://github.com/humanmade/tachyon-plugin/issues",
+                "source": "https://github.com/humanmade/tachyon-plugin/tree/0.11.5"
+            },
+            "time": "2021-10-22T11:37:46+00:00"
         },
         {
             "name": "jazzsequence/altis-cms",

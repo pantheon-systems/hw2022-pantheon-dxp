@@ -44,6 +44,7 @@ web/wp-content/plugins/pantheon-advanced-page-cache/
 web/wp-content/plugins/wp-native-php-sessions/
 # Ignore Altis things
 web/wp-content/mu-plugins/altis-cms/
+web/wp-content/mu-plugins/cavalcade/
 web/wp-content/plugins/altis-accelerate/
 web/wp-content/plugins/altis-reusable-blocks/
 web/wp-content/plugins/asset-loader/

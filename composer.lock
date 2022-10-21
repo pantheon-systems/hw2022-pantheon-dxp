@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a58a02cd0a7522ccf7ed77a73cf7c23b",
+    "content-hash": "017ca05178c078eca4cdfe46299b8885",
     "packages": [
         {
             "name": "10up/simple-local-avatars",
@@ -330,6 +330,46 @@
                 "source": "https://github.com/humanmade/authorship/tree/0.2.13"
             },
             "time": "2022-08-19T10:02:44+00:00"
+        },
+        {
+            "name": "humanmade/cavalcade",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/Cavalcade.git",
+                "reference": "e8b1e9a08d242559f82fd9a0eb59e3ea2ef968f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/Cavalcade/zipball/e8b1e9a08d242559f82fd9a0eb59e3ea2ef968f0",
+                "reference": "e8b1e9a08d242559f82fd9a0eb59e3ea2ef968f0",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "require-dev": {
+                "humanmade/coding-standards": "dev-master",
+                "phpunit/phpunit": "7.1"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "homepage": "https://hmn.md/"
+                }
+            ],
+            "description": "A better wp-cron. Horizontally scalable, works perfectly with multisite.",
+            "homepage": "https://github.com/humanmade/Cavalcade",
+            "support": {
+                "issues": "https://github.com/humanmade/Cavalcade/issues",
+                "source": "https://github.com/humanmade/Cavalcade/tree/2.0.2"
+            },
+            "time": "2020-12-03T10:26:48+00:00"
         },
         {
             "name": "humanmade/clean-html",

@@ -20,6 +20,7 @@ if ( file_exists( $autoloader ) ) {
 // Add mu-plugins here.
 $pantheon_mu_plugins = [
 	'altis-cms/plugin.php',
+	'cavalcade/plugin.php',
 	'pantheon-mu-plugin/pantheon.php',
 ];
 

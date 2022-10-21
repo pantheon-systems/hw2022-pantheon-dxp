@@ -23,8 +23,12 @@
     "php": ">=7.4 || >= 8.0",
     "composer/installers": "*",
     "altis/enhanced-search": "^13.0.0-beta.1",
-    "altis/media": "^13.0.0-beta.1",
+    "darylldoyle/safe-svg": "2.0.1",
     "humanmade/cavalcade": "^2.0",
+    "humanmade/tachyon-plugin": "~0.11.5",
+    "humanmade/gaussholder": "^1.1.3",
+    "humanmade/rename-images-command": "^0.1.0",
+    "humanmade/amf-wordpress": "^0.3.0",
     "jazzsequence/altis-cms": "^12.0-beta4",
     "pantheon-systems/pantheon-mu-plugin": "^1.0",
     "pantheon-systems/quicksilver-pushback": "^2",
@@ -95,15 +99,13 @@
       "@cleanup",
       "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
       "@delete-muplugin",
-      "composer install --working-dir=web/wp-content/mu-plugins/altis-cms --ignore-platform-reqs",
-      "composer install --working-dir=web/wp-content/plugins/amf-wordpress --ignore-platform-reqs"
+      "composer install --working-dir=web/wp-content/mu-plugins/altis-cms --ignore-platform-reqs"
     ],
     "post-update-cmd": [
       "@cleanup",
       "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
       "@delete-muplugin",
-      "composer install --working-dir=web/wp-content/mu-plugins/altis-cms --ignore-platform-reqs",
-      "composer install --working-dir=web/wp-content/plugins/amf-wordpress --ignore-platform-reqs"
+      "composer install --working-dir=web/wp-content/mu-plugins/altis-cms --ignore-platform-reqs"
     ],
     "post-create-project-cmd": [
       "@cleanup",

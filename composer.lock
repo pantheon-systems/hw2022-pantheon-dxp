@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb8b45ec49647c0d2828a1da8c6d70c5",
+    "content-hash": "ca2ae30b7bdebd1b41fce871bfab1e78",
     "packages": [
         {
             "name": "10up/elasticpress",
@@ -168,71 +168,6 @@
                 "source": "https://github.com/humanmade/altis-enhanced-search/tree/13.0.0-beta.1"
             },
             "time": "2022-08-02T10:24:02+00:00"
-        },
-        {
-            "name": "altis/media",
-            "version": "13.0.0-beta.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/humanmade/altis-media.git",
-                "reference": "8bdc7d6f6aa8ad3828640b89c834c7939e534dd1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-media/zipball/8bdc7d6f6aa8ad3828640b89c834c7939e534dd1",
-                "reference": "8bdc7d6f6aa8ad3828640b89c834c7939e534dd1",
-                "shasum": ""
-            },
-            "require": {
-                "darylldoyle/safe-svg": "2.0.1",
-                "humanmade/amf-wordpress": "^0.3.0",
-                "humanmade/asset-manager-framework": "^0.13.1",
-                "humanmade/aws-rekognition": "~0.1.8",
-                "humanmade/gaussholder": "1.1.3",
-                "humanmade/rename-images-command": "^0.1.0",
-                "humanmade/smart-media": "~0.4.3",
-                "humanmade/tachyon-plugin": "~0.11.5",
-                "php": ">=7.1"
-            },
-            "type": "library",
-            "extra": {
-                "altis": {
-                    "install-overrides": [
-                        "darylldoyle/safe-svg",
-                        "humanmade/tachyon-plugin",
-                        "humanmade/smart-media",
-                        "humanmade/gaussholder",
-                        "humanmade/aws-rekognition",
-                        "humanmade/asset-manager-framework",
-                        "humanmade/amf-wordpress"
-                    ]
-                }
-            },
-            "autoload": {
-                "files": [
-                    "inc/namespace.php",
-                    "inc/global_assets/namespace.php"
-                ],
-                "classmap": [
-                    "inc/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Human Made",
-                    "email": "hello@humanmade.com"
-                }
-            ],
-            "description": "Media module for Altis",
-            "support": {
-                "issues": "https://github.com/humanmade/altis-media/issues",
-                "source": "https://github.com/humanmade/altis-media/tree/13.0.0-beta.1"
-            },
-            "time": "2022-07-20T10:56:27+00:00"
         },
         {
             "name": "composer/installers",
@@ -705,38 +640,6 @@
             "time": "2022-08-19T10:02:44+00:00"
         },
         {
-            "name": "humanmade/aws-rekognition",
-            "version": "0.1.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/humanmade/aws-rekognition.git",
-                "reference": "7d54241c83044b1ffbf04ff10a101600176e7a40"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/aws-rekognition/zipball/7d54241c83044b1ffbf04ff10a101600176e7a40",
-                "reference": "7d54241c83044b1ffbf04ff10a101600176e7a40",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Joe Hoyle",
-                    "email": "joe@humanmade.com"
-                }
-            ],
-            "description": "Detect labels, faces, celebrities, and text in images automatically for easy searching and alt text generation.",
-            "support": {
-                "issues": "https://github.com/humanmade/aws-rekognition/issues",
-                "source": "https://github.com/humanmade/aws-rekognition/tree/0.1.8"
-            },
-            "time": "2021-06-21T20:21:01+00:00"
-        },
-        {
             "name": "humanmade/cavalcade",
             "version": "2.0.2",
             "source": {
@@ -939,38 +842,6 @@
                 "source": "https://github.com/humanmade/rename-images-command/tree/0.1.0"
             },
             "time": "2020-11-26T13:26:55+00:00"
-        },
-        {
-            "name": "humanmade/smart-media",
-            "version": "0.4.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/humanmade/smart-media.git",
-                "reference": "aff77d25af75a9a48c953ad367fba7e8e89c185b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/smart-media/zipball/aff77d25af75a9a48c953ad367fba7e8e89c185b",
-                "reference": "aff77d25af75a9a48c953ad367fba7e8e89c185b",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Robert O'Rourke",
-                    "email": "rob@humanmade.com"
-                }
-            ],
-            "description": "Smart Media features for HM Cloud",
-            "support": {
-                "issues": "https://github.com/humanmade/smart-media/issues",
-                "source": "https://github.com/humanmade/smart-media/tree/0.4.3"
-            },
-            "time": "2021-12-14T22:24:07+00:00"
         },
         {
             "name": "humanmade/tachyon-plugin",

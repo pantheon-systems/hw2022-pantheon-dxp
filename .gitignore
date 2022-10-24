@@ -45,6 +45,7 @@ web/wp-content/plugins/wp-native-php-sessions/
 # Ignore Altis things
 web/wp-content/mu-plugins/altis-cms/
 web/wp-content/mu-plugins/cavalcade/
+web/wp-content/mu-plugins/consent-api/
 web/wp-content/plugins/altis-accelerate/
 web/wp-content/plugins/altis-reusable-blocks/
 web/wp-content/plugins/amf-wordpress/
@@ -52,7 +53,6 @@ web/wp-content/plugins/asset-loader/
 web/wp-content/plugins/asset-manager-framework/
 web/wp-content/plugins/authorship/
 web/wp-content/plugins/aws-rekognition/
-web/wp-content/plugins/consent-api/
 web/wp-content/plugins/debug-bar-elasticpress/
 web/wp-content/plugins/elasticpress/
 web/wp-content/plugins/gaussholder/

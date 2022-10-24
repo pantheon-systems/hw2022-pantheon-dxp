@@ -21,7 +21,10 @@ if ( file_exists( $autoloader ) ) {
 $pantheon_mu_plugins = [
 	'altis-cms/plugin.php',
 	'cavalcade/plugin.php',
+	'consent-api/plugin.php',
 	'pantheon-mu-plugin/pantheon.php',
+	'../../../vendor/altis/consent/plugin.php',
+	'../../../vendor/altis/enhanced-search/inc/namespace.php',
 ];
 
 foreach ( $pantheon_mu_plugins as $file ) {

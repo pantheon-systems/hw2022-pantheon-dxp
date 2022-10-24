@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03a674820f56be656999f2c2b9b3da98",
+    "content-hash": "c148274e7f21148b1533a7817601ed64",
     "packages": [
         {
             "name": "10up/elasticpress",
@@ -116,6 +116,83 @@
                 "source": "https://github.com/10up/simple-local-avatars"
             },
             "time": "2020-10-26T19:07:29+00:00"
+        },
+        {
+            "name": "altis/consent",
+            "version": "1.0.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-consent.git",
+                "reference": "7546e9ee64b762bda60198374f51d5a01111efdc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-consent/zipball/7546e9ee64b762bda60198374f51d5a01111efdc",
+                "reference": "7546e9ee64b762bda60198374f51d5a01111efdc",
+                "shasum": ""
+            },
+            "require": {
+                "altis/consent-api": "^1.0.5",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "humanmade/coding-standards": "^1.1.0"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Privacy and consent module for Altis",
+            "support": {
+                "issues": "https://github.com/humanmade/altis-consent/issues",
+                "source": "https://github.com/humanmade/altis-consent/tree/1.0.15"
+            },
+            "time": "2022-05-05T12:27:47+00:00"
+        },
+        {
+            "name": "altis/consent-api",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/consent-api-js.git",
+                "reference": "bf18718056a3c41c5e4e3d423955d28f94cbb64d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/consent-api-js/zipball/bf18718056a3c41c5e4e3d423955d28f94cbb64d",
+                "reference": "bf18718056a3c41c5e4e3d423955d28f94cbb64d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "humanmade/coding-standards": "^1.1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "Consent API feature for Altis",
+            "support": {
+                "issues": "https://github.com/humanmade/consent-api-js/issues",
+                "source": "https://github.com/humanmade/consent-api-js/tree/1.0.7"
+            },
+            "time": "2021-06-02T18:59:15+00:00"
         },
         {
             "name": "altis/enhanced-search",

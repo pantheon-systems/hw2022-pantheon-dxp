@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "436c6626abdb76032ec844069c3d3123",
+    "content-hash": "6bfc6e0307d2df8a6c3808682138f3d4",
     "packages": [
         {
             "name": "10up/elasticpress",
@@ -245,6 +245,61 @@
                 "source": "https://github.com/humanmade/altis-enhanced-search/tree/13.0.0-beta.1"
             },
             "time": "2022-08-02T10:24:02+00:00"
+        },
+        {
+            "name": "altis/seo",
+            "version": "13.0.0-beta.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-seo.git",
+                "reference": "0164da99f382e43c0aece5264cf2d21891a82457"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-seo/zipball/0164da99f382e43c0aece5264cf2d21891a82457",
+                "reference": "0164da99f382e43c0aece5264cf2d21891a82457",
+                "shasum": ""
+            },
+            "require": {
+                "humanmade/hm-redirects": "~0.7.1",
+                "php": ">=7.1",
+                "yoast/wordpress-seo": "^18.9"
+            },
+            "type": "package",
+            "extra": {
+                "altis": {
+                    "install-overrides": [
+                        "humanmade/hm-redirects",
+                        "yoast/wordpress-seo",
+                        "yoast/wordpress-seo-premium"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "inc/namespace.php",
+                    "inc/site_verification/namespace.php"
+                ],
+                "classmap": [
+                    "inc/opengraph/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "description": "SEO module for Altis",
+            "support": {
+                "issues": "https://github.com/humanmade/altis-seo/issues",
+                "source": "https://github.com/humanmade/altis-seo/tree/13.0.0-beta.1"
+            },
+            "time": "2022-07-20T10:55:50+00:00"
         },
         {
             "name": "composer/installers",
@@ -782,6 +837,45 @@
                 "wiki": "https://github.com/humanmade/Gaussholder/wiki"
             },
             "time": "2019-05-13T10:17:03+00:00"
+        },
+        {
+            "name": "humanmade/hm-redirects",
+            "version": "0.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/hm-redirects.git",
+                "reference": "3c12c65834c815de156e452285ebea16fed98183"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/hm-redirects/zipball/3c12c65834c815de156e452285ebea16fed98183",
+                "reference": "3c12c65834c815de156e452285ebea16fed98183",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "humanmade/coding-standards": "^0.5.0",
+                "phpunit/phpunit": "^7.5"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Simple plugin for handling WordPress redirects in a scalable manner.",
+            "homepage": "https://github.com/humanmade/hm-redirects",
+            "keywords": [
+                "redirects",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/humanmade/hm-redirects/issues",
+                "source": "https://github.com/humanmade/hm-redirects/tree/0.7.2"
+            },
+            "time": "2022-08-31T10:37:54+00:00"
         },
         {
             "name": "humanmade/rename-images-command",
@@ -1626,6 +1720,122 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/twentynineteen/"
+        },
+        {
+            "name": "yoast/i18n-module",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yoast/i18n-module.git",
+                "reference": "9d0a2f6daea6fb42376b023e7778294d19edd85d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Yoast/i18n-module/zipball/9d0a2f6daea6fb42376b023e7778294d19edd85d",
+                "reference": "9d0a2f6daea6fb42376b023e7778294d19edd85d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "roave/security-advisories": "dev-master",
+                "yoast/yoastcs": "^1.2.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "email": "support@yoast.com",
+                    "homepage": "https://yoast.com"
+                }
+            ],
+            "description": "Handle i18n for WordPress plugins.",
+            "homepage": "https://github.com/Yoast/i18n-module",
+            "keywords": [
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/Yoast/i18n-module/issues",
+                "source": "https://github.com/Yoast/i18n-module"
+            },
+            "time": "2019-05-07T06:45:05+00:00"
+        },
+        {
+            "name": "yoast/wordpress-seo",
+            "version": "18.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Yoast-dist/wordpress-seo.git",
+                "reference": "c3f42d672d488389faaea5581c9a9df886c35020"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Yoast-dist/wordpress-seo/zipball/c3f42d672d488389faaea5581c9a9df886c35020",
+                "reference": "c3f42d672d488389faaea5581c9a9df886c35020",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.12.0",
+                "php": "^5.6.20 || ^7.0 || ^8.0",
+                "yoast/i18n-module": "^3.1.1"
+            },
+            "require-dev": {
+                "chillerlan/php-qrcode": "^1.0.9",
+                "humbug/php-scoper": "^0.13.4",
+                "league/oauth2-client": "2.6.1",
+                "phpunit/phpunit": "^5.7",
+                "psr/container": "1.0.0",
+                "psr/log": "^1.0",
+                "symfony/config": "^3.4",
+                "symfony/dependency-injection": "^3.4",
+                "yoast/php-development-environment": "^1.0",
+                "yoast/wp-test-utils": "^1.0.0",
+                "yoast/yoastcs": "^2.2.1"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "classmap": [
+                    "admin/",
+                    "inc/",
+                    "vendor_prefixed/",
+                    "src/",
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "email": "support@yoast.com",
+                    "homepage": "https://yoa.st/1--"
+                }
+            ],
+            "description": "Improve your WordPress SEO: Write better content and have a fully optimized WordPress site using the Yoast SEO plugin.",
+            "homepage": "https://yoa.st/1ui",
+            "keywords": [
+                "seo",
+                "wordpress"
+            ],
+            "support": {
+                "forum": "https://wordpress.org/support/plugin/wordpress-seo",
+                "issues": "https://github.com/Yoast/wordpress-seo/issues",
+                "source": "https://github.com/Yoast/wordpress-seo",
+                "wiki": "https://github.com/Yoast/wordpress-seo/wiki"
+            },
+            "time": "2022-05-17T07:37:30+00:00"
         }
     ],
     "packages-dev": [

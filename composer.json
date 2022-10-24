@@ -22,7 +22,8 @@
   "require": {
     "php": ">=7.4 || >= 8.0",
     "altis/consent": "^1.0",
-    "altis/enhanced-search": "^13.0.0-beta.1",
+    "altis/enhanced-search": "^13.0",
+    "altis/seo": "^13.0",
     "composer/installers": "*",
     "darylldoyle/safe-svg": "2.0.1",
     "humanmade/cavalcade": "^2.0",

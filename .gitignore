@@ -56,10 +56,12 @@ web/wp-content/plugins/consent-api/
 web/wp-content/plugins/debug-bar-elasticpress/
 web/wp-content/plugins/elasticpress/
 web/wp-content/plugins/gaussholder/
+web/wp-content/plugins/hm-redirects/
 web/wp-content/plugins/safe-svg/
 web/wp-content/plugins/simple-local-avatars/
 web/wp-content/plugins/smart-media/
 web/wp-content/plugins/tachyon-plugin/
+web/wp-content/plugins/wordpress-seo/
 web/wp-content/plugins/wp-user-signups/
 
 # Packages #

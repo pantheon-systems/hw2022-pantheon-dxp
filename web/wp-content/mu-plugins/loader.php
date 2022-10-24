@@ -24,6 +24,7 @@ $pantheon_mu_plugins = [
 	'consent-api/plugin.php',
 	'pantheon-mu-plugin/pantheon.php',
 	'../../../vendor/altis/consent/plugin.php',
+	'../../../vendor/altis/enhanced-search/inc/namespace.php',
 ];
 
 foreach ( $pantheon_mu_plugins as $file ) {

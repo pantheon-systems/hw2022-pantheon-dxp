@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb9e7c0e9db81649d81e2850a283104d",
+    "content-hash": "6bfc6e0307d2df8a6c3808682138f3d4",
     "packages": [
         {
             "name": "10up/elasticpress",

@@ -22,9 +22,15 @@ $pantheon_mu_plugins = [
 	'altis-cms/plugin.php',
 	'cavalcade/plugin.php',
 	'consent-api/plugin.php',
+	'duplicate-post/duplicate-post.php',
+	'publication-checklist/plugin.php',
+	'workflows/plugin.php',
 	'pantheon-mu-plugin/pantheon.php',
 	'../../../vendor/altis/consent/plugin.php',
 	'../../../vendor/altis/enhanced-search/inc/namespace.php',
+	'../../../vendor/altis/workflow/inc/namespace.php',
+	'../../../vendor/altis/workflow/inc/notifications/namespace.php',
+	'../../../vendor/altis/workflow/inc/clone-amend/namespace.php',
 ];
 
 foreach ( $pantheon_mu_plugins as $file ) {
@@ -85,3 +91,5 @@ add_filter( 'network_admin_plugin_action_links', function ( $actions, $plugin_fi
 	$actions[] = sprintf( '<span style="color:#333">File: <code>%s</code></span>', $plugin_file );
 	return $actions;
 }, 10, 4 );
+
+add_filter( 'altis.publication-checklist.block_on_failing', '__return_true' );

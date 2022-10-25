@@ -46,6 +46,9 @@ web/wp-content/plugins/wp-native-php-sessions/
 web/wp-content/mu-plugins/altis-cms/
 web/wp-content/mu-plugins/cavalcade/
 web/wp-content/mu-plugins/consent-api/
+web/wp-content/mu-plugins/duplicate-post/
+web/wp-content/mu-plugins/publication-checklist/
+web/wp-content/mu-plugins/workflows/
 web/wp-content/plugins/altis-accelerate/
 web/wp-content/plugins/altis-reusable-blocks/
 web/wp-content/plugins/amf-wordpress/

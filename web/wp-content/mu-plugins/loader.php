@@ -91,3 +91,5 @@ add_filter( 'network_admin_plugin_action_links', function ( $actions, $plugin_fi
 	$actions[] = sprintf( '<span style="color:#333">File: <code>%s</code></span>', $plugin_file );
 	return $actions;
 }, 10, 4 );
+
+add_filter( 'altis.publication-checklist.block_on_failing', '__return_true' );

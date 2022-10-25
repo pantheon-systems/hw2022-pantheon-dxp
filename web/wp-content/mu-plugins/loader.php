@@ -22,9 +22,15 @@ $pantheon_mu_plugins = [
 	'altis-cms/plugin.php',
 	'cavalcade/plugin.php',
 	'consent-api/plugin.php',
+	'duplicate-post/duplicate-post.php',
+	'publication-checklist/plugin.php',
+	'workflows/plugin.php',
 	'pantheon-mu-plugin/pantheon.php',
 	'../../../vendor/altis/consent/plugin.php',
 	'../../../vendor/altis/enhanced-search/inc/namespace.php',
+	'../../../vendor/altis/workflow/inc/namespace.php',
+	'../../../vendor/altis/workflow/inc/notifications/namespace.php',
+	'../../../vendor/altis/workflow/inc/clone-amend/namespace.php',
 ];
 
 foreach ( $pantheon_mu_plugins as $file ) {

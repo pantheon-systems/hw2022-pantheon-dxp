@@ -53,6 +53,7 @@
     "dmore/behat-chrome-extension": "^1.2",
     "genesis/behat-fail-aid": "^2.1",
     "humanmade/coding-standards": "^1.2",
+    "johnbillion/query-monitor": "^3.10",
     "phpunit/phpunit": "^9.5",
     "roave/security-advisories": "dev-master"
   },

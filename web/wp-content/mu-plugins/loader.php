@@ -95,3 +95,9 @@ add_filter( 'network_admin_plugin_action_links', function ( $actions, $plugin_fi
 }, 10, 4 );
 
 add_filter( 'altis.publication-checklist.block_on_failing', '__return_true' );
+add_filter( 'altis.analytics.feature.audiences', '__return_true' );
+add_filter( 'altis.analytics.feature.export', '__return_true' );
+add_filter( 'altis.analytics.feature.experiments', '__return_true' );
+add_filter( 'altis.analytics.feature.blocks', '__return_true' );
+add_filter( 'altis.analytics.feature.insights', '__return_true' );
+add_filter( 'altis.analytics.feature.dashboard', '__return_false' );

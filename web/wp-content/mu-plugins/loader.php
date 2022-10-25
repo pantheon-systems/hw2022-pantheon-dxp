@@ -31,6 +31,7 @@ $pantheon_mu_plugins = [
 	'../../../vendor/altis/workflow/inc/namespace.php',
 	'../../../vendor/altis/workflow/inc/notifications/namespace.php',
 	'../../../vendor/altis/workflow/inc/clone-amend/namespace.php',
+	'../../../vendor/jazzsequence/altis-analytics/inc/namespace.php',
 ];
 
 foreach ( $pantheon_mu_plugins as $file ) {

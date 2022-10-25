@@ -15,6 +15,17 @@
       "url": "https://github.com/pantheon-systems/wordpress-composer"
     },
     {
+      "type": "package",
+      "package": {
+        "name": "jazzsequence/altis-analytics",
+        "version": "12.0-beta2",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/jazzsequence/altis-analytics/archive/refs/tags/12.0-beta2.zip"
+        }
+      }
+    },
+    {
       "type": "vcs",
       "url": "git@github.com:jazzsequence/altis-cms.git"
     }
@@ -31,6 +42,7 @@
     "humanmade/gaussholder": "^1.1.3",
     "humanmade/rename-images-command": "^0.1.0",
     "humanmade/tachyon-plugin": "~0.11.5",
+    "jazzsequence/altis-analytics": "^12.0",
     "jazzsequence/altis-cms": "^12.0-beta4",
     "pantheon-systems/pantheon-mu-plugin": "^1.0",
     "pantheon-systems/quicksilver-pushback": "^2",

@@ -26,11 +26,13 @@ $pantheon_mu_plugins = [
 	'publication-checklist/plugin.php',
 	'workflows/plugin.php',
 	'pantheon-mu-plugin/pantheon.php',
+	'../plugins/altis-accelerate/vendor/altis/aws-analytics/plugin.php',
 	'../../../vendor/altis/consent/plugin.php',
 	'../../../vendor/altis/enhanced-search/inc/namespace.php',
 	'../../../vendor/altis/workflow/inc/namespace.php',
 	'../../../vendor/altis/workflow/inc/notifications/namespace.php',
 	'../../../vendor/altis/workflow/inc/clone-amend/namespace.php',
+	'../../../vendor/jazzsequence/altis-analytics/inc/namespace.php',
 ];
 
 foreach ( $pantheon_mu_plugins as $file ) {

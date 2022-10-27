@@ -1,0 +1,40 @@
+// TinyMCE
+.mce-container.mce-menu .mce-menu-item {
+	&:hover,
+	&.mce-selected,
+	&:focus,
+	&-normal.mce-active,
+	&-preview.mce-active {
+		background: var( --pantheon-black );
+	}
+}
+
+.alternate,
+.striped > tbody > :nth-child(odd),
+ul.striped > :nth-child(odd)  {
+	background-color: var( --pantheon-gold );
+}
+
+.edit-post-sidebar__panel-tab.is-active {
+	border-bottom-color: var( --pantheon-green );
+	box-shadow: inset 0 -3 var( --pantheon-light-blue );
+}
+
+.editor-block-types-list__item {
+	&-icon {
+		color: var( --pantheon-blue );
+	}
+
+	&:not(:disabled):not([aria-disabled="true"]):hover .editor-block-types-list__item-icon,
+	&:not(:disabled):not([aria-disabled="true"]):hover .editor-block-types-list__item-title {
+		color: var( --pantheon-blue );
+	}
+}
+
+.edit-post-sidebar {
+	color: var( --pantheon-blue );
+}
+
+.block-editor-block-list__layout .block-editor-block-list__block:not([contendedittable]):focus::after {
+	box-shadow: 0 0 0 1px var( --pantheon-blue );
+}

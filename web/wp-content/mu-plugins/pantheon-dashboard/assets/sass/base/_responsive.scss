@@ -1,0 +1,15 @@
+// Responsive Content.
+div#wp-responsive-toggle a::before {
+	color: var( --pantheon-yellow );
+}
+
+.wp-responsive-open {
+	#wpadminbar #wp-admin-bar-menu-toggle a,
+	div#wp-responsive-toggle a {
+		background: var( --pantheon-black );
+	}
+
+	#wpadminbar #wp-admin-bar-menu-toggle .ab-icon::before {
+		color: var( --pantheon-yellow );
+	}
+}

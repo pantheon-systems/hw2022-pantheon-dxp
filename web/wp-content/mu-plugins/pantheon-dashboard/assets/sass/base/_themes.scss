@@ -1,0 +1,34 @@
+.theme-browser {
+	.theme.active .theme-name,
+	.theme.add-new-theme a:hover::after,
+	.theme.add-new-theme a:focus::after {
+		background: var( --pantheon-blue );
+	}
+
+	.theme.add-new-theme a:hover span::after,
+	.theme.add-new-theme a:focus span::after {
+		color: var( --pantheon-blue );
+	}
+}
+
+.theme-section.current,
+.theme-filter.current {
+	border-bottom-color: var( --pantheon-blue );
+}
+
+body.more-filters-openened .more-filters {
+	color: var( --pantheon-yellow );
+	background-color: var( --pantheon-black );
+
+	&:hover::before,
+	&:focus::before,
+	&::before {
+		color: var( --pantheon-yellow );
+	}
+
+	&:hover,
+	&:focus {
+		color: var( --pantheon-yellow );
+		background-color: var( --pantheon-black );
+	}
+}

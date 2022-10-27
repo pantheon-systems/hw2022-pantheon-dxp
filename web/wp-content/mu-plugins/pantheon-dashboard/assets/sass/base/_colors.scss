@@ -1,0 +1,27 @@
+:root {
+	// Primary colors.
+	--pantheon-blue: #3017a1;
+	--pantheon-black: #000000;
+	--pantheon-white: #ffffff;
+	--pantheon-yellow: #ffdc28;
+
+	// Secondary Gradient Colors.
+	--pantheon-dark-violet: #2b016b;
+	--pantheon-light-violet: #a700aa;
+	--pantheon-pink: #f98fd1;
+	--pantheon-orange: #ff6f1c;
+	--pantheon-gold: #f6e700;
+	--pantheon-light-blue: #06c7f5;
+	--pantheon-green: #43e700;
+
+	// WP Admin Theme Colors.
+	--wp-admin-theme-color: var( --pantheon-blue );
+
+	// Gradients.
+	--pantheon-gradient-1: linear-gradient( 45deg, var( --pantheon-black ) 25%, var( --pantheon-dark-violet ) 50%, var( --pantheon-orange ) 75%, var( --pantheon-gold ) 100% );
+	--pantheon-gradient-2: linear-gradient( 45deg, var( --pantheon-black ) 25%, var( --pantheon-dark-violet ) 50%, var( --pantheon-light-violet ) 75%, var( --pantheon-orange ) 100% );
+	--pantheon-gradient-3: linear-gradient( 45deg, var( --pantheon-black ) 25%, var( --pantheon-dark-violet ) 50%, var( --pantheon-light-violet ) 75%, var( --pantheon-gold ) 100% );
+	--pantheon-gradient-purples: linear-gradient( 45deg, var( --pantheon-black ) 33%, var( --pantheon-dark-violet ) 66%, var( --pantheon-pink ) 100% );
+	--pantheon-gradient-blues: linear-gradient( 45deg, var( --pantheon-black ) 33%, var( --pantheon-dark-violet ) 66%, var( --pantheon-light-blue ) 100% );
+	--pantheon-gradient-blue-green: linear-gradient( 45deg, var( --pantheon-black ) 33%, var( --pantheon-blue ) 66%, var( --pantheon-green ) 100% );
+}

@@ -1,0 +1,156 @@
+// Admin bar.
+#wpadminbar {
+	background-color: var( --pantheon-black );
+	color: var( --pantheon-white );
+
+	.ab-item,
+	a.ab-item
+	> #wp-toolbar span.ab-label,
+	> #wp-toolbar span.noticon {
+		color: var( --pantheon-white );
+	}
+
+	.ab-icon,
+	.ab-icon:before,
+	.ab-item:before,
+	.ab-item:after {
+		color: var( --pantheon-white );
+	}
+
+	&:not(.mobile) {
+		.ab-top-menu > li:hover > .ab-item,
+		.ab-top-menu > li > .ab-item:focus,
+		> #wp-toolbar li:hover span.ab-label,
+		> #wp-toolbar li.focus span.ab-label,
+		li:hover .ab-icon:before,
+		li:hover .ab-item:before,
+		li:hover .ab-item:after,
+		li:hover #adminbarsearch::before {
+			color: var( --pantheon-yellow );
+		}
+
+		.ab-top-menu > li:hover > .ab-item,
+		.ab-top-menu > li > .ab-item:focus {
+			background-color: var( --pantheon-blue );
+		}
+	}
+
+	&.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
+	&.nojs .ab-top-menu > li.menupop:hover > .ab-item,
+	.ab-top-menu > li.menupop.hover > .ab-item {
+		background-color: var( --pantheon-blue );
+		color: var( --pantheon-yellow );
+	}
+
+	.menupop {
+		.ab-sub-wrapper {
+			background: var( --pantheon-blue );
+		}
+
+		.menupop > .ab-item:hover::before {
+			color: var( --pantheon-yellow );
+		}
+	}
+
+	.quicklinks {
+		.menupop {
+			ul.ab-sub-secondary,
+			ul.ab-sub-secondary .ab-submenu {
+				background: var( --pantheon-yellow );
+			}
+
+			&.hover ul li div[tabindex]:hover {
+				color: var( --pantheon-yellow );
+			}
+
+			ul li a,
+			&.hover ul li a {
+				color: var( --pantheon-white );
+
+				&:hover,
+				&:focus,
+				&:hover strong,
+				&:focus strong,
+				&.hover ul li a:hover,
+				&.hover ul li a:focus {
+					color: var( --pantheon-yellow );
+				}
+			}
+		}
+
+		li a:hover .blavatar,
+		li a:focus .blavatar,
+		.ab-sub-wrapper .menupop.hover > a .blavatar {
+			color: var( --pantheon-yellow );
+		}
+
+		li#wp-admin-bar-my-account.with-avatar > a img {
+			border-color: var( --pantheon-yellow );
+			background-color: var( --pantheon-yellow );
+		}
+	}
+
+	&.nojs .quicklinks {
+		.menupop {
+			&:hover ul li a:hover,
+			&:hover ul li a:focus {
+				color: var( --pantheon-yellow );
+			}
+
+			&:hover ul li a {
+				color: var( --pantheon-white );
+			}
+		}
+	}
+
+	.ab-submenu .ab-item,
+	.quicklinks li .blavatar,
+	.menupop .menupop > .ab-item::before {
+		color: var( --pantheon-white );
+	}
+
+	li {
+		&:hover .ab-icon:before,
+		&:hover .ab-item:before,
+		a:focus .ab-icon:before,
+		.ab-item:focus::before,
+		.ab-item:focus .ab-icon::before,
+		&.hover .ab-icon::before,
+		&.hover .ab-item::before,
+		&:hover #adminbarsearch::before,
+		#adminbarsearch.adminbar-focused::before {
+			color: var( --pantheon-yellow );
+		}
+	}
+
+	&.mobile {
+		.quicklinks {
+			ab-icon::before,
+			.ab-item::before {
+				color: var( --pantheon-yellow );
+			}
+
+			.hover .ab-icon::before,
+			.hover .ab-item::before {
+				color: var( --pantheon-white );
+			}
+		}
+	}
+
+	#adminbarsearch::before {
+		color: var( --pantheon-white );
+	}
+
+	> #wp-toolbar > #wp-admin-bar-top-secondary > #wp-admin-bar-search #adminbarsearch input.adminbar-input:focus {
+		color: var( --pantheon-white );
+		background: var( --pantheon-blue );
+	}
+
+	#wp-admin-bar-user-info .username {
+		color: var( --pantheon-yellow );
+	}
+}
+
+.contextual-help-tabs .active {
+	border-left-color: var( --pantheon-yellow );
+}

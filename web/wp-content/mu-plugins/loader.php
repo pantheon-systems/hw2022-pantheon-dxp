@@ -24,6 +24,7 @@ $pantheon_mu_plugins = [
 	'consent-api/plugin.php',
 	'duplicate-post/duplicate-post.php',
 	'pantheon-mu-plugin/pantheon.php',
+	'pantheon-dashboard/plugin.php',
 	'publication-checklist/plugin.php',
 	'workflows/plugin.php',
 	'../plugins/altis-accelerate/vendor/altis/aws-analytics/plugin.php',

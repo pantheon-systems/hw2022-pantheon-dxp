@@ -2,8 +2,11 @@
 	display: none;
 }
 
-#wp-admin-bar-pantheon img {
-	height: 32px;
+#wp-admin-bar-pantheon {
+	min-width: 160px;
+	img {
+		height: 32px;
+	}
 }
 
 .edit-post-layout .components-notice-list,

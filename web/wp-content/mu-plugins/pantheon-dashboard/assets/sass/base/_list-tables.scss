@@ -1,0 +1,19 @@
+// List tables.
+.wrap {
+	.add-new-h2:hover:not(:disabled),
+	.page-title-action:hover:not(:disabled),
+	.tablenav .tablenav-pages a:hover,
+	.tablenav .tablenav-pages a:focus {
+		color: var( --pantheon-blue );
+	}
+}
+
+.view-switch a {
+	&.current::before {
+		color: var( --pantheon-blue );
+	}
+
+	&.current:hover::before {
+		color: var( --pantheon-yellow );
+	}
+}

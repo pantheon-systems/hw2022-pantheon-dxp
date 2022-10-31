@@ -1,0 +1,27 @@
+// Pointers
+.wp-pointer {
+	.wp-pointer-content {
+		h3 {
+			background-color: var( --pantheon-black );
+			border-color: var( --pantheon-yellow );
+
+			&::before {
+				color: var( --pantheon-yellow );
+			}
+		}
+	}
+
+	&.wp-pointer-top {
+		.wp-pointer-arrow,
+		.wp-pointer-arrow-inner {
+			border-top-color: var( --pantheon-black );
+		}
+	}
+
+	&.wp-pointer-undefined {
+		.wp-pointer-arrow,
+		.wp-pointer-arrow-inner {
+			border-bottom-color: var( --pantheon-black );
+		}
+	}
+}

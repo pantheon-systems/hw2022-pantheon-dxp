@@ -1,0 +1,26 @@
+// Links
+a {
+	color: var( --pantheon-blue );
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: var( --pantheon-dark-violet );
+	}
+
+	&:visited {
+		color: var( --pantheon-blue );
+	}
+
+	&:focus {
+		box-shadow: 0 0 2px 1px var( --pantheon-blue );
+	}
+
+}
+
+#media-upload a.del-link:hover,
+div.dashboard-widget-submit input:hover,
+.subsubsub a:hover,
+.subsubsub a.current:hover {
+	color: var( --pantheon-blue );
+}

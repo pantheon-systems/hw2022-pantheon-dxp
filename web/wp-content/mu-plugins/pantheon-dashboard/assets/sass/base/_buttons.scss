@@ -1,0 +1,141 @@
+.components-button.is-secondary,
+.wp-core-ui .button,
+.wp-core-ui .button-secondary {
+	border: 1px solid var( --pantheon-black );
+	color: var( --pantheon-black );
+}
+
+.components-button.is-secondary:hover:not(:disabled):not([aria-disabled="true"]),
+.wp-core-ui .button:hover:not(:disabled):not([aria-disabled="true"]),
+.wp-core-ui .button-secondary:hover:not(:disabled):not([aria-disabled="true"]) {
+	border-color: var( --pantheon-blue );
+	color: var( --pantheon-blue );
+}
+
+.wp-core-ui .button-primary:hover:not(:disabled):not([aria-disabled="true"]) {
+	color: var( --pantheon-white );
+}
+
+.components-button {
+	&:hover,
+	&[aria-expanded="true"] {
+		color: var( --pantheon-black );
+	}
+
+	&.is-pressed {
+		color: var( --pantheon-yellow );
+	}
+
+	&:active:not(:disabled):not([aria-disabled="true"]),
+	&.is-secondary:active:not(:disabled):not([aria-disabled="true"]) {
+		border-color: var( --pantheon-yellow );
+		color: var( --pantheon-yellow );
+		background: var( --pantheon-black );
+	}
+
+	&:focus:not(:disabled):not([aria-disabled="true"]),
+	&.is-secondary:focus:not(:disabled):not([aria-disabled="true"]) {
+		box-shadow: 0 0 3px 2px var( --pantheon-blue );
+	}
+
+	&.is-primary {
+		background: var( --pantheon-blue );
+		border: 1px var( --pantheon-blue ) solid;
+		color: var( --pantheon-yellow );
+
+		&:focus:not(:disabled):not([aria-disabled="true"]),
+		&:active:not(:disabled):not([aria-disabled="true"]),
+		&:hover:not(:disabled):not([aria-disabled="true"]) {
+			background: var( --pantheon-blue );
+			border-color: var( --pantheon-blue );
+		}
+
+		&:active:not(:disabled):not([aria-disabled="true"]) {
+			color: var( --pantheon-yellow );
+		}
+	}
+}
+
+.wp-core-ui .button {
+	&:active:not(:disabled):not([aria-disabled="true"]),
+	&-secondary:active:not(:disabled):not([aria-disabled="true"]) {
+		border-color: var( --pantheon-yellow );
+		color: var( --pantheon-yellow );
+		background: var( --pantheon-black );
+	}
+
+	&:focus:not(:disabled):not([aria-disabled="true"]),
+	&-secondary:focus:not(:disabled):not([aria-disabled="true"]) {
+		box-shadow: 0 0 3px 2px var( --pantheon-blue );
+	}
+
+	&-primary {
+		background: var( --pantheon-blue );
+		border: 1px var( --pantheon-blue ) solid;
+		color: var( --pantheon-yellow );
+
+		&:focus:not(:disabled):not([aria-disabled="true"]),
+		&:active:not(:disabled):not([aria-disabled="true"]),
+		&:hover:not(:disabled):not([aria-disabled="true"]) {
+			background: var( --pantheon-blue );
+			border-color: var( --pantheon-blue );
+		}
+
+		&:active:not(:disabled):not([aria-disabled="true"]) {
+			color: var( --pantheon-yellow );
+		}
+	}
+}
+
+.wrap {
+	.add-new-h2,
+	.page-title-action {
+		background: var( --pantheon-blue );
+		color: var( --pantheon-yellow );
+	}
+
+	.add-new-h2:active,
+	.page-title-action:active,
+	.add-new-h2:hover:not(:disabled):not([aria-disabled="true"]),
+	.add-new-h2:focus:not(:disabled):not([aria-disabled="true"]),
+	.page-title-action:focus,
+	.page-title-action:hover:not(:disabled):not([aria-disabled="true"]) {
+		background: var( --pantheon-white );
+		border-color: var( --pantheon-blue );
+		color: var( --pantheon-blue )
+	}
+
+	.add-new-h2:active,
+	.page-title-action:active {
+		color: var( --pantheon-yellow );
+	}
+}
+
+.components-button.is-link,
+.wp-core-ui .button-link,
+a,
+.components-button.is-tertiary,
+.media-frame a {
+	color: var( --pantheon-blue );
+}
+
+.components-button.is-link:hover:not(:disabled):not([aria-disabled="true"]),
+.wp-core-ui .button-link:hover:not(:disabled):not([aria-disabled="true"]),
+.components-button.is-link:active:not(:disabled):not([aria-disabled="true"]),
+.wp-core-ui .button-link:active:not(:disabled):not([aria-disabled="true"]),
+.components-button.is-tertiary:hover:not(:disabled):not([aria-disabled="true"]),
+a:hover:not(:disabled):not([aria-disabled="true"]),
+.media-frame a:hover:not(:disabled):not([aria-disabled="true"]),
+.components-button.is-tertiary:not(:disabled):not([aria-disabled="true"]):not(.is-default):hover {
+	color: var( --pantheon-blue );
+	background: none;
+}
+
+.components-button.is-tertiary:hover:not(:disabled):not([aria-disabled="true"]) {
+	box-shadow: inset 0 0 0 1px var( --pantheon-light-blue );
+}
+
+.plugin-update-tr.active td,
+.plugins .active th.check-column {
+	border-color: var( --pantheon-green );
+}

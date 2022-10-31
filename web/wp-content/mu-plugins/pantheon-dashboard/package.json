@@ -1,0 +1,40 @@
+{
+  "name": "pantheon-dashboard",
+  "version": "1.0.0",
+  "description": "An admin theme for the Pantheon Dashboard.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "lint": "npx stylelint '**/*.scss' --syntax scss"
+  },
+  "author": "Chris Reynolds <me@chrisreynolds.io>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@humanmade/stylelint-config": "^1.1.1",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^5.1",
+    "gulp-terser": "^2.1.0",
+    "node-sass": "^7.0.3",
+    "sass": "^1.55.0",
+    "stylelint": "^12.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+// Admin menu
+#adminmenuback,
+#adminmenuwrap,
+#adminmenu {
+	background-color: var( --pantheon-black );
+}
+
+#adminmenu {
+	a {
+		color: var( --pantheon-white );
+	}
+
+	div.wp-menu-image::before {
+		color: var( --pantheon-white );
+	}
+
+	a.menu-top.toplevel_page_wpseo_dashboard:hover .wp-menu-image,
+	a.menu-top.toplevel_page_elasticpress:hover .wp-menu-image {
+		color: var( --pantheon-yellow );
+		background-color: var( --pantheon-blue );
+	}
+
+	a:hover,
+	li.menu-top:hover,
+	li.opensub > a.menu-top,
+	li > a.menu-top:focus {
+		color: var( --pantheon-yellow );
+		background-color: var( --pantheon-blue );
+	}
+
+	// Submenu
+	.wp-submenu,
+	.wp-has-current-submenu .wp-submenu,
+	.wp-has-current-submenu.opensub .wp-submenu,
+	a.wp-has-current-submenu:focus * .wp-submenu {
+		background-color: var( --pantheon-dark-violet );
+	}
+
+	li.wp-has-submenu.wp-not-current-submenu.opensub:hover::after {
+		border-right-color: var( --pantheon-dark-violet );
+	}
+
+	.wp-submenu a {
+		color: var( --pantheon-white );
+	}
+
+	.wp-submenu a:focus,
+	.wp-submenu a:hover,
+	.wp-submenu li.current a,
+	.wp-has-current-submenu .wp-submenu a:focus,
+	.wp-has-current-submenu .wp-submenu a:hover,
+	.wp-submenu li.current a:hover,
+	.wp-submenu li.current a:focus,
+	.wp-has-current-submenu.opensub .wp-submenu a:focus,
+	.wp-has-current-submenu.opensub .wp-submenu a:hover,
+	.wp-has-current-submenu.opensub .wp-submenu li.current a,
+	a.wp-has-current-submenu:focus + .wp-submenu a:focus,
+	a.wp-has-current-submenu:focus + .wp-submenu a:hover,
+	a.wp-has-current-submenu:focus + .wp-submenu li.current a,
+	.wp-has-current-submenu.opensub .wp-submenu li.current a:hover,
+	.wp-has-current-submenu.opensub .wp-submenu li.current a:focus,
+	a.wp-has-current-submenu:focus + .wp-submenu li.current a:hover,
+	a.wp-has-current-submenu:focus + .wp-submenu li.current a:focus,
+	li.wp-has-current-submenu div.wp-menu-image::before,
+	li:hover div.wp-menu-image::before,
+	li.opensub div.wp-menu-image::before,
+	li a:focus div.wp-menu-image::before,
+	a.current:hover div.wp-menu-image::before,
+	li.wp-has-current-submenu.opensub div.wp-menu-image::before,
+	li.menu-top:hover div.wp-menu-image::before,
+	li.wp-has-current-submenu a:focus div.wp-menu-image::before,
+	li.opensub > a.menu-top div.wp-menu-image::before {
+		color: var( --pantheon-yellow );
+	}
+
+	.wp-has-current-submenu.opensub .wp-submenu a,
+	a.wp-has-current-submenu:focus + .wp-submenu a,
+	.wp-submenu .wp-submenu-head,
+	.wp-has-current-submenu .wp-submenu a {
+		color: var( --pantheon-white );
+	}
+
+	li.current a.menu-top,
+	li.wp-has-current-submenu a.wp-has-current-submenu,
+	li.wp-has-current-submenu .wp-submenu .wp-submenu-head {
+		color: var( --pantheon-yellow );
+		background: var( --pantheon-blue );
+	}
+
+	.awaiting-mod,
+	.update-plugins {
+		color: var( --pantheon-black );
+		background-color: var( --pantheon-yellow );
+	}
+
+	li.current a .awaiting-mod,
+	li a.wp-has-current-submenu .update-plugins,
+	li:hover a .awaiting-mod,
+	li.menu-top:hover > a .update-plugins {
+		color: var( --pantheon-black );
+		background: var( --pantheon-yellow );
+	}
+}
+
+.folded #adminmenu {
+	.wp-has-current-submenu .wp-submenu {
+		background-color: var( --pantheon-dark-violet );
+
+		a {
+			color: var( --pantheon-white );
+		}
+	}
+
+	.wp-has-current-submenu .wp-submenu a:focus,
+	.wp-has-current-submenu .wp-submenu a:hover {
+		color: var( --pantheon-yellow );
+	}
+
+	li.current.menu-top {
+		color: var( --pantheon-yellow );
+		background: var( --pantheon-blue );
+	}
+}
+
+.ie8 #adminmenu li.opensub div.wp-menu-image::before {
+	color: var( --pantheon-yellow );
+}
+
+ul#adminmenu {
+	a.wp-has-current-submenu::after,
+	> li.current > a.current::after {
+		border-right-color: #f1f1f1;
+	}
+}
+
+.nav-tab-active,
+.nav-tab-active:hover,
+.about-wrap h2 .nav-tab-active {
+	background-color: var( --pantheon-black );
+	border-bottom-color: var( --pantheon-black );
+}
+
+#collapse-button {
+	&:hover,
+	&:focus {
+		color: var( --pantheon-yellow );
+	}
+}

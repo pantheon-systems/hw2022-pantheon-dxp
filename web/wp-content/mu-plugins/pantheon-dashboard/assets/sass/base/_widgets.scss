@@ -1,0 +1,10 @@
+// Widgets.
+.widgets-chooser li.widgetschooser-selected {
+	background-color: var( --pantheon-black );
+	color: var( --pantheon-yellow );
+
+	&::before,
+	&:focus::before {
+		color: var( --pantheon-yellow );
+	}
+}

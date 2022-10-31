@@ -123,13 +123,13 @@
       "@cleanup",
       "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
       "@delete-muplugin",
-      "composer install --working-dir=web/wp-content/mu-plugins/altis-cms --no-dev"
+      "composer install --working-dir=web/wp-content/mu-plugins/altis-cms --no-dev --ignore-platform-reqs"
     ],
     "post-update-cmd": [
       "@cleanup",
       "WordPressProject\\composer\\ScriptHandler::createRequiredFiles",
       "@delete-muplugin",
-      "composer install --working-dir=web/wp-content/mu-plugins/altis-cms --no-dev"
+      "composer install --working-dir=web/wp-content/mu-plugins/altis-cms --no-dev --ignore-platform-reqs"
     ],
     "post-create-project-cmd": [
       "@cleanup",

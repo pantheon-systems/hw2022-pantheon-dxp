@@ -90,8 +90,7 @@
 .wrap {
 	.add-new-h2,
 	.page-title-action {
-		border: 1px solid var( --pantheon-blue );
-		color: var( --pantheon-blue );
+		background: var( --pantheon-blue );
 		color: var( --pantheon-yellow );
 	}
 
@@ -101,8 +100,9 @@
 	.add-new-h2:focus:not(:disabled):not([aria-disabled="true"]),
 	.page-title-action:focus,
 	.page-title-action:hover:not(:disabled):not([aria-disabled="true"]) {
-		background: var( --pantheon-blue );
+		background: var( --pantheon-white );
 		border-color: var( --pantheon-blue );
+		color: var( --pantheon-blue )
 	}
 
 	.add-new-h2:active,

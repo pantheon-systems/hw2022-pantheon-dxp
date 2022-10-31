@@ -196,16 +196,16 @@
         },
         {
             "name": "altis/enhanced-search",
-            "version": "13.0.0-beta.1",
+            "version": "13.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-enhanced-search.git",
-                "reference": "72c40384d552bd63b08e353e4f3ae4dc4bf6bb2c"
+                "reference": "8a46cf2e39a0a84a5b33359198d0e72ddcb6b0cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-enhanced-search/zipball/72c40384d552bd63b08e353e4f3ae4dc4bf6bb2c",
-                "reference": "72c40384d552bd63b08e353e4f3ae4dc4bf6bb2c",
+                "url": "https://api.github.com/repos/humanmade/altis-enhanced-search/zipball/8a46cf2e39a0a84a5b33359198d0e72ddcb6b0cd",
+                "reference": "8a46cf2e39a0a84a5b33359198d0e72ddcb6b0cd",
                 "shasum": ""
             },
             "require": {
@@ -242,22 +242,22 @@
             "description": "Enhanced Search module for Altis",
             "support": {
                 "issues": "https://github.com/humanmade/altis-enhanced-search/issues",
-                "source": "https://github.com/humanmade/altis-enhanced-search/tree/13.0.0-beta.1"
+                "source": "https://github.com/humanmade/altis-enhanced-search/tree/13.0.1"
             },
-            "time": "2022-08-02T10:24:02+00:00"
+            "time": "2022-10-27T10:54:54+00:00"
         },
         {
             "name": "altis/seo",
-            "version": "13.0.0-beta.1",
+            "version": "13.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-seo.git",
-                "reference": "0164da99f382e43c0aece5264cf2d21891a82457"
+                "reference": "9b50f435bfea996d1735b3e2139b1b666084edec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/altis-seo/zipball/0164da99f382e43c0aece5264cf2d21891a82457",
-                "reference": "0164da99f382e43c0aece5264cf2d21891a82457",
+                "url": "https://api.github.com/repos/humanmade/altis-seo/zipball/9b50f435bfea996d1735b3e2139b1b666084edec",
+                "reference": "9b50f435bfea996d1735b3e2139b1b666084edec",
                 "shasum": ""
             },
             "require": {
@@ -297,13 +297,13 @@
             "description": "SEO module for Altis",
             "support": {
                 "issues": "https://github.com/humanmade/altis-seo/issues",
-                "source": "https://github.com/humanmade/altis-seo/tree/13.0.0-beta.1"
+                "source": "https://github.com/humanmade/altis-seo/tree/13.0.0"
             },
-            "time": "2022-07-20T10:55:50+00:00"
+            "time": "2022-10-27T10:59:06+00:00"
         },
         {
             "name": "altis/workflow",
-            "version": "13.0.0-beta.1",
+            "version": "13.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/altis-workflow.git",
@@ -354,7 +354,7 @@
             "description": "Workflow module for Altis",
             "support": {
                 "issues": "https://github.com/humanmade/altis-workflow/issues",
-                "source": "https://github.com/humanmade/altis-workflow/tree/13.0.0-beta.1"
+                "source": "https://github.com/humanmade/altis-workflow/tree/13.0.0"
             },
             "time": "2022-08-05T08:44:43+00:00"
         },
@@ -855,16 +855,16 @@
         },
         {
             "name": "humanmade/gaussholder",
-            "version": "1.1.3",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/Gaussholder.git",
-                "reference": "8571d08ad5018384702ec297bb2e578d74ae3eb9"
+                "reference": "41663ae0505d19768f26c57935f077fe59af59db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/Gaussholder/zipball/8571d08ad5018384702ec297bb2e578d74ae3eb9",
-                "reference": "8571d08ad5018384702ec297bb2e578d74ae3eb9",
+                "url": "https://api.github.com/repos/humanmade/Gaussholder/zipball/41663ae0505d19768f26c57935f077fe59af59db",
+                "reference": "41663ae0505d19768f26c57935f077fe59af59db",
                 "shasum": ""
             },
             "require": {
@@ -893,7 +893,7 @@
                 "source": "https://github.com/humanmade/Gaussholder/releases",
                 "wiki": "https://github.com/humanmade/Gaussholder/wiki"
             },
-            "time": "2019-05-13T10:17:03+00:00"
+            "time": "2022-10-26T16:13:29+00:00"
         },
         {
             "name": "humanmade/hm-redirects",
@@ -1826,15 +1826,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-native-php-sessions",
-            "version": "1.2.4",
+            "version": "1.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-native-php-sessions/",
-                "reference": "tags/1.2.4"
+                "reference": "tags/1.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.1.2.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.1.2.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3540,16 +3540,16 @@
         },
         {
             "name": "instaclick/php-webdriver",
-            "version": "1.4.15",
+            "version": "1.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/instaclick/php-webdriver.git",
-                "reference": "ed8f7741a0952db42686aae0780a0935138a7cf8"
+                "reference": "a39a1f6dc0f4ddd8b2438fa5eb1f67755730d606"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/ed8f7741a0952db42686aae0780a0935138a7cf8",
-                "reference": "ed8f7741a0952db42686aae0780a0935138a7cf8",
+                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/a39a1f6dc0f4ddd8b2438fa5eb1f67755730d606",
+                "reference": "a39a1f6dc0f4ddd8b2438fa5eb1f67755730d606",
                 "shasum": ""
             },
             "require": {
@@ -3597,9 +3597,9 @@
             ],
             "support": {
                 "issues": "https://github.com/instaclick/php-webdriver/issues",
-                "source": "https://github.com/instaclick/php-webdriver/tree/1.4.15"
+                "source": "https://github.com/instaclick/php-webdriver/tree/1.4.16"
             },
-            "time": "2022-08-09T14:26:29+00:00"
+            "time": "2022-10-28T13:30:35+00:00"
         },
         {
             "name": "johnbillion/query-monitor",
@@ -4143,16 +4143,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.17",
+            "version": "9.2.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "aa94dc41e8661fe90c7316849907cba3007b10d8"
+                "reference": "12fddc491826940cf9b7e88ad9664cf51f0f6d0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/aa94dc41e8661fe90c7316849907cba3007b10d8",
-                "reference": "aa94dc41e8661fe90c7316849907cba3007b10d8",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/12fddc491826940cf9b7e88ad9664cf51f0f6d0a",
+                "reference": "12fddc491826940cf9b7e88ad9664cf51f0f6d0a",
                 "shasum": ""
             },
             "require": {
@@ -4208,7 +4208,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.17"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.18"
             },
             "funding": [
                 {
@@ -4216,7 +4216,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-08-30T12:24:04+00:00"
+            "time": "2022-10-27T13:35:33+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -4461,16 +4461,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.25",
+            "version": "9.5.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3e6f90ca7e3d02025b1d147bd8d4a89fd4ca8a1d"
+                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3e6f90ca7e3d02025b1d147bd8d4a89fd4ca8a1d",
-                "reference": "3e6f90ca7e3d02025b1d147bd8d4a89fd4ca8a1d",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/851867efcbb6a1b992ec515c71cdcf20d895e9d2",
+                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2",
                 "shasum": ""
             },
             "require": {
@@ -4543,7 +4543,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.25"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.26"
             },
             "funding": [
                 {
@@ -4559,7 +4559,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-25T03:44:45+00:00"
+            "time": "2022-10-28T06:00:21+00:00"
         },
         {
             "name": "psr/container",
@@ -4812,12 +4812,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "599b9d6746e56b67b187afed175dd02fb1a288fa"
+                "reference": "6ca121cb3bf9f5d33016bfd4a175b0732cf174c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/599b9d6746e56b67b187afed175dd02fb1a288fa",
-                "reference": "599b9d6746e56b67b187afed175dd02fb1a288fa",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/6ca121cb3bf9f5d33016bfd4a175b0732cf174c4",
+                "reference": "6ca121cb3bf9f5d33016bfd4a175b0732cf174c4",
                 "shasum": ""
             },
             "conflict": {
@@ -4840,6 +4840,7 @@
                 "asymmetricrypt/asymmetricrypt": ">=0,<9.9.99",
                 "awesome-support/awesome-support": "<=6.0.7",
                 "aws/aws-sdk-php": ">=3,<3.2.1",
+                "badaso/core": "<2.6.1",
                 "bagisto/bagisto": "<0.1.5",
                 "barrelstrength/sprout-base-email": "<1.2.7",
                 "barrelstrength/sprout-forms": "<3.9",
@@ -4995,6 +4996,7 @@
                 "joomla/filter": "<1.4.4|>=2,<2.0.1",
                 "joomla/input": ">=2,<2.0.2",
                 "joomla/session": "<1.3.1",
+                "joyqi/hyper-down": "<=2.4.27",
                 "jsdecena/laracom": "<2.0.9",
                 "jsmitty12/phpwhois": "<5.1",
                 "kazist/phpwhois": "<=4.2.6",
@@ -5099,7 +5101,7 @@
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
                 "pimcore/data-hub": "<1.2.4",
-                "pimcore/pimcore": "<=10.5.6",
+                "pimcore/pimcore": "<10.5.9",
                 "pocketmine/bedrock-protocol": "<8.0.2",
                 "pocketmine/pocketmine-mp": "<4.7.2|>= 4.0.0-BETA5, < 4.4.2",
                 "pressbooks/pressbooks": "<5.18",
@@ -5221,7 +5223,7 @@
                 "thelia/thelia": ">=2.1-beta.1,<2.1.3",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "thinkcmf/thinkcmf": "<=5.1.7",
-                "thorsten/phpmyfaq": "<=3.1.7",
+                "thorsten/phpmyfaq": "<3.1.8",
                 "tinymce/tinymce": "<5.10",
                 "titon/framework": ">=0,<9.9.99",
                 "topthink/framework": "<=6.0.13",
@@ -5253,7 +5255,7 @@
                 "webcoast/deferred-image-processing": "<1.0.2",
                 "wikimedia/parsoid": "<0.12.2",
                 "willdurand/js-translation-bundle": "<2.1.1",
-                "wintercms/winter": "<1.0.475|>=1.1,<1.1.9",
+                "wintercms/winter": "<1.0.475|>=1.1,<1.1.10|>=1.2,<1.2.1",
                 "woocommerce/woocommerce": "<6.6",
                 "wp-cli/wp-cli": "<2.5",
                 "wp-graphql/wp-graphql": "<0.3.5",
@@ -5333,7 +5335,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-24T19:11:20+00:00"
+            "time": "2022-10-31T20:04:42+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -6508,16 +6510,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.4.14",
+            "version": "v5.4.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "984ea2c0f45f42dfed01d2f3987b187467c4b16d"
+                "reference": "ea59bb0edfaf9f28d18d8791410ee0355f317669"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/984ea2c0f45f42dfed01d2f3987b187467c4b16d",
-                "reference": "984ea2c0f45f42dfed01d2f3987b187467c4b16d",
+                "url": "https://api.github.com/repos/symfony/console/zipball/ea59bb0edfaf9f28d18d8791410ee0355f317669",
+                "reference": "ea59bb0edfaf9f28d18d8791410ee0355f317669",
                 "shasum": ""
             },
             "require": {
@@ -6587,7 +6589,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.4.14"
+                "source": "https://github.com/symfony/console/tree/v5.4.15"
             },
             "funding": [
                 {
@@ -6603,7 +6605,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-07T08:01:20+00:00"
+            "time": "2022-10-26T21:41:52+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -7866,16 +7868,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.4.14",
+            "version": "v5.4.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "089e7237497fae7a9c404d0c3aeb8db3254733e4"
+                "reference": "571334ce9f687e3e6af72db4d3b2a9431e4fd9ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/089e7237497fae7a9c404d0c3aeb8db3254733e4",
-                "reference": "089e7237497fae7a9c404d0c3aeb8db3254733e4",
+                "url": "https://api.github.com/repos/symfony/string/zipball/571334ce9f687e3e6af72db4d3b2a9431e4fd9ed",
+                "reference": "571334ce9f687e3e6af72db4d3b2a9431e4fd9ed",
                 "shasum": ""
             },
             "require": {
@@ -7932,7 +7934,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v5.4.14"
+                "source": "https://github.com/symfony/string/tree/v5.4.15"
             },
             "funding": [
                 {

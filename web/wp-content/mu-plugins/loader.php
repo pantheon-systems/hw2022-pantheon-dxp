@@ -17,6 +17,16 @@ if ( file_exists( $autoloader ) ) {
 	require_once $autoloader;
 }
 
+// Enable AWS Analytics features before mu-plugins are loaded.
+add_action( 'plugin_loaded', function() {
+	add_filter( 'altis.analytics.feature.audiences', '__return_true' );
+	add_filter( 'altis.analytics.feature.export', '__return_true' );
+	add_filter( 'altis.analytics.feature.experiments', '__return_true' );
+	add_filter( 'altis.analytics.feature.blocks', '__return_true' );
+	add_filter( 'altis.analytics.feature.insights', '__return_true' );
+	add_filter( 'altis.analytics.feature.dashboard', '__return_false' );
+}, 9 );
+
 // Add mu-plugins here.
 $pantheon_mu_plugins = [
 	'altis-cms/plugin.php',
@@ -29,13 +39,6 @@ $pantheon_mu_plugins = [
 	'workflows/plugin.php',
 	'../plugins/altis-accelerate/vendor/autoload.php',
 	'../plugins/altis-accelerate/vendor/altis/aws-analytics/plugin.php',
-	'../plugins/altis-accelerate/vendor/altis/aws-analytics/inc/audiences/namespace.php',
-	'../plugins/altis-accelerate/vendor/altis/aws-analytics/inc/blocks/namespace.php',
-	'../plugins/altis-accelerate/vendor/altis/aws-analytics/inc/experiments/namespace.php',
-	'../plugins/altis-accelerate/vendor/altis/aws-analytics/inc/insights/namespace.php',
-	'../plugins/altis-accelerate/vendor/altis/aws-analytics/inc/preview/namespace.php',
-	'../plugins/altis-accelerate/vendor/altis/aws-analytics/inc/api/namespace.php',
-	'../plugins/altis-accelerate/vendor/altis/aws-analytics/inc/export/namespace.php',
 	'../../../vendor/altis/consent/plugin.php',
 	'../../../vendor/altis/enhanced-search/inc/namespace.php',
 	'../../../vendor/altis/workflow/inc/namespace.php',
@@ -104,9 +107,3 @@ add_filter( 'network_admin_plugin_action_links', function ( $actions, $plugin_fi
 }, 10, 4 );
 
 add_filter( 'altis.publication-checklist.block_on_failing', '__return_true' );
-add_filter( 'altis.analytics.feature.audiences', '__return_true' );
-add_filter( 'altis.analytics.feature.export', '__return_true' );
-add_filter( 'altis.analytics.feature.experiments', '__return_true' );
-add_filter( 'altis.analytics.feature.blocks', '__return_true' );
-add_filter( 'altis.analytics.feature.insights', '__return_true' );
-add_filter( 'altis.analytics.feature.dashboard', '__return_false' );

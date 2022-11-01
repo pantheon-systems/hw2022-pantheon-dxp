@@ -20,7 +20,6 @@ if ( file_exists( $autoloader ) ) {
 // Add mu-plugins here.
 $pantheon_mu_plugins = [
 	'altis-cms/plugin.php',
-	'altis-cms/vendor/autoload.php',
 	'cavalcade/plugin.php',
 	'consent-api/plugin.php',
 	'duplicate-post/duplicate-post.php',
@@ -28,6 +27,7 @@ $pantheon_mu_plugins = [
 	'pantheon-dashboard/plugin.php',
 	'publication-checklist/plugin.php',
 	'workflows/plugin.php',
+	'../plugins/altis-accelerate/vendor/autoload.php',
 	'../plugins/altis-accelerate/vendor/altis/aws-analytics/plugin.php',
 	'../../../vendor/altis/consent/plugin.php',
 	'../../../vendor/altis/enhanced-search/inc/namespace.php',

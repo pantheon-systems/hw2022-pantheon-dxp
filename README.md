@@ -4,7 +4,7 @@
 
 ## _A Pantheon Hackathon 2022 Project_
 
-[![Github Actions](https://github.com/pantheon-systems/hw2022-pantheon-dxp/actions/workflows/build_deploy_and_test.yml/badge.svg)](https://github.com/pantheon-systems/hw2022-pantheon-dxp/actions/workflows/build_deploy_and_test.yml)
+![MIT License](https://img.shields.io/github/license/pantheon-systems/hw2022-pantheon-dxp) [![Github Actions](https://github.com/pantheon-systems/hw2022-pantheon-dxp/actions/workflows/build_deploy_and_test.yml/badge.svg)](https://github.com/pantheon-systems/hw2022-pantheon-dxp/actions/workflows/build_deploy_and_test.yml)
 [![Dashboard hw2022-pantheon-dxp](https://img.shields.io/badge/dashboard-hw2022_pantheon_dxp-yellow.svg)](https://dashboard.pantheon.io/sites/5a0227f9-d1b1-4580-9471-cad2272ec955#dev/code)
 [![Live Site dxp.ei.pantheon.io](https://img.shields.io/badge/site-dxp.ei.pantheon.io-blue.svg)](https://dxp.ei.pantheon.io/)
 

@@ -1,5 +1,5 @@
 {
-  "name": "pantheon-systems/example-wordpress-composer",
+  "name": "pantheon-systems/pantheon-dxp",
   "description": "",
   "type": "project",
   "keywords": [],
@@ -28,6 +28,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:jazzsequence/altis-cms.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:pantheon-systems/pantheon-hud.git"
     }
   ],
   "require": {
@@ -44,6 +48,7 @@
     "humanmade/tachyon-plugin": "~0.11.5",
     "jazzsequence/altis-analytics": "^12.0",
     "jazzsequence/altis-cms": "^12.0-beta4",
+    "pantheon-systems/pantheon-hud": "^0.3",
     "pantheon-systems/pantheon-mu-plugin": "^1.0",
     "pantheon-systems/quicksilver-pushback": "^2",
     "pantheon-systems/wordpress-composer": "*",

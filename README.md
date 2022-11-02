@@ -1,3 +1,5 @@
+<img src="https://github.com/pantheon-systems/hw2022-pantheon-dxp/blob/master/web/wp-content/mu-plugins/pantheon-dashboard/assets/logo-white.png?raw=true" alt="Pantheon" style="background-color: #000; height: 100px" />
+
 # Pantheon DXP
 
 ## _A Pantheon Hackathon 2022 Project_
@@ -8,4 +10,4 @@
 
 [Hackathon video](https://drive.google.com/file/d/1Uijj5NZVRhJDSc-t_t5sii2sNFzm7if5/view?usp=share_link)
 
-This project was built to explore the possibility of running a WordPress-based, Composable Digital Experience Platform on Pantheon's platform.
+This project was built to explore the possibility of running a WordPress-based, Composable Digital Experience Platform on Pantheon.

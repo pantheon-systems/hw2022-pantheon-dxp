@@ -4683,13 +4683,10 @@
                 "uri",
                 "uri factory"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sirn-se/phrity-net-uri/issues",
                 "source": "https://github.com/sirn-se/phrity-net-uri/tree/1.0.0"
             },
-=======
->>>>>>> master
             "time": "2022-10-25T17:38:42+00:00"
         },
         {
@@ -4737,13 +4734,10 @@
                 "error",
                 "warning"
             ],
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/sirn-se/phrity-util-errorhandler/issues",
                 "source": "https://github.com/sirn-se/phrity-util-errorhandler/tree/1.0.1"
             },
-=======
->>>>>>> master
             "time": "2022-10-27T12:14:42+00:00"
         },
         {
@@ -4894,12 +4888,9 @@
                 "request",
                 "response"
             ],
-<<<<<<< HEAD
             "support": {
                 "source": "https://github.com/php-fig/http-factory/tree/master"
             },
-=======
->>>>>>> master
             "time": "2019-04-30T12:38:16+00:00"
         },
         {
@@ -5055,21 +5046,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-<<<<<<< HEAD
                 "reference": "cfab26195dd00f1a6a58fe1600e9cdaf3e0ad7bb"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/cfab26195dd00f1a6a58fe1600e9cdaf3e0ad7bb",
                 "reference": "cfab26195dd00f1a6a58fe1600e9cdaf3e0ad7bb",
-=======
-                "reference": "cca41afdc42d1c011c063c5698d44a47d0df15b6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/cca41afdc42d1c011c063c5698d44a47d0df15b6",
-                "reference": "cca41afdc42d1c011c063c5698d44a47d0df15b6",
->>>>>>> master
                 "shasum": ""
             },
             "conflict": {
@@ -5589,11 +5571,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2022-11-02T17:13:38+00:00"
-=======
-            "time": "2022-11-01T22:05:19+00:00"
->>>>>>> master
         },
         {
             "name": "sebastian/cli-parser",
@@ -8462,7 +8440,6 @@
         },
         {
             "name": "textalk/websocket",
-<<<<<<< HEAD
             "version": "1.6.1",
             "source": {
                 "type": "git",
@@ -8473,18 +8450,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Textalk/websocket-php/zipball/25848ca82ab7acbf249e57db6f3913c7792d07b4",
                 "reference": "25848ca82ab7acbf249e57db6f3913c7792d07b4",
-=======
-            "version": "1.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Textalk/websocket-php.git",
-                "reference": "fc1390a1d3373977877e4d35e1169d6a3678e683"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Textalk/websocket-php/zipball/fc1390a1d3373977877e4d35e1169d6a3678e683",
-                "reference": "fc1390a1d3373977877e4d35e1169d6a3678e683",
->>>>>>> master
                 "shasum": ""
             },
             "require": {
@@ -8518,15 +8483,11 @@
                 }
             ],
             "description": "WebSocket client and server",
-<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/Textalk/websocket-php/issues",
                 "source": "https://github.com/Textalk/websocket-php/tree/1.6.1"
             },
             "time": "2022-11-02T10:08:52+00:00"
-=======
-            "time": "2022-11-01T18:32:50+00:00"
->>>>>>> master
         },
         {
             "name": "theseer/tokenizer",
